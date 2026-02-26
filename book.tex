@@ -1,0 +1,184 @@
+\documentclass[%
+a4paper,
+%twoside,
+11pt
+]{article}
+
+% encoding, font, language
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[ngerman]{babel}
+\usepackage{hyperref}
+\usepackage{nicefrac}
+
+\usepackage[
+    handwritten,
+    nowarnings,
+    %myconfig
+]
+{xcookybooky}
+
+\DeclareRobustCommand{\textcelcius}{\ensuremath{^{\circ}\mathrm{C}}}
+
+\newcommand{\recipesource}[2]{\href{#1}{#2}}
+
+
+\setcounter{secnumdepth}{1}
+\renewcommand*{\recipesection}[2][]
+{%
+    \subsection[#1]{#2}
+}
+\renewcommand{\subsectionmark}[1]
+{% no implementation to display the section name instead
+}
+
+
+\usepackage{hyperref}    % must be the last package
+\hypersetup{%
+    pdfauthor            = {Adrian Hieber},
+    pdftitle             = {Rezeptbuch von Adrian Hieber},
+    pdfsubject           = {Rezeptbuch},
+    pdfkeywords          = {rezept, rezeptbuch, Adrian, Hieber},
+    pdfstartview         = {FitV},
+    pdfview              = {FitH},
+    pdfpagemode          = {UseNone}, % Options; UseNone, UseOutlines
+    bookmarksopen        = {true},
+    pdfpagetransition    = {Glitter},
+    colorlinks           = {true},
+    linkcolor            = {black},
+    urlcolor             = {blue},
+    citecolor            = {black},
+    filecolor            = {black},
+}
+
+\hbadness=10000	% Ignore underfull boxes
+
+\begin{document}
+
+% background graphic
+\setBackgroundPicture[x, y=-2cm, width=\paperwidth-7cm, height, orientation = pagecenter]
+{pic/adrianhieber}
+
+\title{Rezeptbuch}
+\author{Adrian Hieber\\ \href{mailto:adrian.hieber@gmail.com}{adrian.hieber@gmail.com}}
+\maketitle
+
+\begin{abstract}
+    \noindent 
+    Mein Name ist Adrian Hieber. Ich bin Student und koche in meiner Freizeit sehr gerne. Für mich ist Kochen ein Hobby, bei dem ich entspannen und kreativ sein kann.
+    Ich bin Vegetarier, deshalb sind alle Rezepte in diesem Kochbuch ohne Fleisch. Ich möchte mit diesem Buch meine Lieblingsrezepte sammeln und für mich und meine Freunde festhalten. Vielleicht bekommt ihr ja auch Lust, ein paar Gerichte auszuprobieren.
+    Die PDF-Vorlage für dieses Dokument habe ich von \url{https://code.google.com/p/xcookybooky/} mit leichten Veränderungen übernommen.
+
+\end{abstract}
+
+\tableofcontents
+
+\vspace{5em}
+%------------------------------------------------------------
+\section{Vorwort}
+In diesem Kapitel findest du meine liebsten Rezepte, die ich immer wieder gerne koche. Es sind einfache Gerichte, die gut in den Studentenalltag passen und nicht kompliziert sind.
+
+Alle Rezepte sind vegetarisch und meistens mit Zutaten gemacht, die man leicht im Supermarkt bekommt. Manche Gerichte sind schnell gemacht, andere brauchen etwas mehr Zeit, aber alle sind es wert.
+
+Ich habe versucht, die Schritte klar und verständlich aufzuschreiben, damit du die Gerichte einfach nachkochen kannst. Wenn du willst, kannst du sie natürlich auch verändern oder an deinen Geschmack anpassen.
+
+Bei allen Rezepten wird auch angegeben, was die Nährwerte pro Portion ist, falls die Portion eine Spanne ist (2--3), so wird die niedrigere Nummer genommen. Außerdem wird in KLammern noch die Angabe für das Gericht mit Beilage zugefügt, die Zahl ohne Klammern gibt also nur die Nährwerte der Zutaten wieder.
+
+Viel Spaß beim Kochen und Ausprobieren
+%\include{rezepte/Complete_Recipe}
+
+
+%------------------------------------------------------------
+\section{Vorspeisen}
+
+Wenn ich normal koche, dann mache ich mir eigentlich keine Vorspeise, da es einfach mehr Aufwand ist. Aber wenn man mal die Angelegntheit dazu hat, ist es auch schön und wichtig.
+
+Natürlich kann man auch als Vorspeise immer frisches Brot mit Olivenöl mit Salz und Pfeffer essen. Mit dunklem Balsamico dazu ist das auch richtig geil, aber habe mal gelesen, dass das die Italiener nicht so sehen, da es da guten Olivenöl nicht herauskommen lässt. Naja schmeckt trotzdem geil. 
+Am besten ist natürlich das geschenkte Olivenöl direkt an der Quelle, welches jedes Weihnachten kommt, thx Gabi.
+
+Naja aber es gibt natürlich noch weitere geile Sachen, deswegen fangen hier erstmal die Vorspeisen an.
+
+\include{rezepte/02_vorspeise/01_zwiebelsuppe}
+
+
+%------------------------------------------------------------
+\section{Hauptgerichte}
+Wenn ich koche, dann eigentlich meistens direkt Hauptgericht.
+Das ist so der Moment, wo man merkt: okay, jetzt wird’s ernst. Jetzt wird nicht mehr nur gesnackt, jetzt wird richtig gegessen.
+
+Hier landen die Gerichte, die satt machen. Die, bei denen man danach erstmal kurz auf dem Stuhl hängen bleibt und sagt: „Boah, das war gut.“
+Manche davon sind aus Langeweile entstanden, manche aus Resteverwertung, manche, weil ich irgendwo irgendwas gesehen habe und dachte: das krieg ich auch hin.
+
+Nicht alles ist super fancy. Muss es auch nicht sein.
+Hauptsache es schmeckt, macht satt und man kann es gut mit Freunden teilen.
+
+Und wenn am Ende alle nochmal nachnehmen, dann weiß man eh, dass es funktioniert hat.
+\include{rezepte/03_hauptgericht/01_gnocci-zitrone}
+\include{rezepte/03_hauptgericht/02_dal-makhani}
+\include{rezepte/03_hauptgericht/03_veganer-sauerbraten}
+\include{rezepte/03_hauptgericht/04_flammkuchen}
+\include{rezepte/03_hauptgericht/05_karamelisierte-zwiebel-pasta}
+\include{rezepte/03_hauptgericht/06_bolognese}
+
+
+%------------------------------------------------------------
+\section{Schnelle Küche}
+Das hier ist für die Tage, an denen man eigentlich keinen Bock hat zu kochen.
+Uni war lang, Kopf voll, Kühlschrank halb leer.
+
+Aber bevor man wieder nur Nudeln mit irgendwas macht (was natürlich auch stabil ist), gibt’s hier ein paar Sachen, die schnell gehen und trotzdem nach mehr aussehen als sie eigentlich sind.
+
+Wenig Aufwand, wenig Denken, wenig Abwasch.
+Einfach machen, essen, fertig.
+
+Das sind so Gerichte, die man irgendwann auswendig kann.
+Und genau das ist das Ziel.
+\include{rezepte/04_schnellekueche/01_nudeln-erdnusssauce}
+
+
+%------------------------------------------------------------
+\section{Frühstück}
+\include{rezepte/05_fruehstueck/01_savory-oatmeal}
+
+
+%------------------------------------------------------------
+\section{Desserts}
+Braucht man Dessert?
+Eigentlich nicht.
+Will man Dessert?
+Ja.
+
+Das hier ist für süße Laune, für spontane Backaktionen oder wenn man Besuch beeindrucken will, obwohl man eigentlich nur Schokolade zusammenschmeißt.
+
+Manchmal ist es geplant, manchmal komplett impulsiv.
+„Ich hab noch Kakao da“ ist meistens der Anfang von irgendwas Gutem.
+
+Und ganz ehrlich:
+Wenn man schon kocht, dann kann man auch übertreiben.
+\include{rezepte/06_dessert/01_fudgy-vegan-brownie}
+\include{rezepte/06_dessert/02_karamelisierte-feigen}
+\include{rezepte/06_dessert/03_bananenbrot}
+\include{rezepte/06_dessert/04_schoko-erdbeeren-mochi}
+
+
+%------------------------------------------------------------
+\section{Getränke}
+
+Getränke sind irgendwie Nebensache – bis sie es nicht mehr sind. 
+Meistens trinkt man halt Wasser, Kaffee oder irgendwas aus dem Kühlschrank. 
+Aber manchmal will man mehr als nur „irgendwas dazu“.
+
+Dieses Kapitel ist für Experimente, für selbstgemachten Sirup, 
+für Sachen mit Koffein oder für Abende, die vielleicht ein bisschen länger werden.
+
+Manche Rezepte hier sind praktisch, manche einfach nur, weil ich wissen wollte, ob es geht. 
+Und ganz ehrlich: Wenn man schon selber kocht, kann man auch selber mischen.
+
+Und wenn es am Ende einfach nur Mate mit Sprudel ist – 
+dann ist das trotzdem besser als gekauft.
+
+\include{rezepte/07_getraenke/01_club-mate}
+
+
+\end{document} 
