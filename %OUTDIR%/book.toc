@@ -1,22 +1,28 @@
 \babel@toc {ngerman}{}\relax 
 \contentsline {section}{\numberline {1}Vorwort}{2}{section.1}%
-\contentsline {section}{\numberline {2}Vorspeisen}{2}{section.2}%
+\contentsline {section}{\numberline {2}Vorspeisen}{3}{section.2}%
 \contentsline {subsection}{\normalsize Zwiebelsuppe}{4}{section*.2}%
-\contentsline {section}{\numberline {3}Hauptgerichte}{5}{section.3}%
-\contentsline {subsection}{\normalsize Gnocchi mit Zitronen-Frischkäsefüllung auf Cashew-Weißwein-Sauce}{6}{section*.3}%
-\contentsline {subsection}{\normalsize Dal Makhani}{8}{section*.4}%
-\contentsline {subsection}{\normalsize Veganer Sauerbraten (Seitan)}{9}{section*.5}%
-\contentsline {subsection}{\normalsize Flammkuchen}{11}{section*.6}%
-\contentsline {subsection}{\normalsize Karamellisierte Zwiebel Pasta}{12}{section*.7}%
-\contentsline {subsection}{\normalsize Bolognese}{13}{section*.8}%
-\contentsline {section}{\numberline {4}Schnelle Küche}{14}{section.4}%
-\contentsline {subsection}{\normalsize Nudeln in Erdnusssauce}{15}{section*.9}%
-\contentsline {section}{\numberline {5}Frühstück}{16}{section.5}%
-\contentsline {subsection}{\normalsize Savory Oatmeal}{17}{section*.10}%
-\contentsline {section}{\numberline {6}Desserts}{18}{section.6}%
-\contentsline {subsection}{\normalsize Fudgy Vegane Brownies}{19}{section*.11}%
-\contentsline {subsection}{\normalsize Karamellisierte Feigen}{20}{section*.12}%
-\contentsline {subsection}{\normalsize Bananenbrot}{22}{section*.13}%
-\contentsline {subsection}{\normalsize Schoko-Erdbeeren Mochi}{23}{section*.14}%
-\contentsline {section}{\numberline {7}Getränke}{24}{section.7}%
-\contentsline {subsection}{\normalsize Club Mate Sirup}{25}{section*.15}%
+\contentsline {subsection}{\normalsize Acili Ezme}{5}{section*.3}%
+\contentsline {subsection}{\normalsize Brokkoli auf Rote-Beete-Hummus}{6}{section*.4}%
+\contentsline {section}{\numberline {3}Hauptgerichte}{7}{section.3}%
+\contentsline {subsection}{\normalsize Gnocchi mit Zitronen-Frischkäsefüllung auf Cashew-Weißwein-Sauce}{8}{section*.5}%
+\contentsline {subsection}{\normalsize Dal Makhani}{10}{section*.6}%
+\contentsline {subsection}{\normalsize Veganer Sauerbraten (Seitan)}{11}{section*.7}%
+\contentsline {subsection}{\normalsize Flammkuchen}{13}{section*.8}%
+\contentsline {subsection}{\normalsize Karamellisierte Zwiebel Pasta}{14}{section*.9}%
+\contentsline {subsection}{\normalsize Bolognese}{15}{section*.10}%
+\contentsline {subsection}{\normalsize Mushroom Wellington}{16}{section*.11}%
+\contentsline {section}{\numberline {4}Schnelle Küche}{18}{section.4}%
+\contentsline {subsection}{\normalsize Nudeln in Erdnusssauce}{19}{section*.12}%
+\contentsline {section}{\numberline {5}Frühstück}{20}{section.5}%
+\contentsline {subsection}{\normalsize Savory Oatmeal}{21}{section*.13}%
+\contentsline {section}{\numberline {6}Desserts}{22}{section.6}%
+\contentsline {subsection}{\normalsize Fudgy Vegane Brownies}{23}{section*.14}%
+\contentsline {subsection}{\normalsize Karamellisierte Feigen}{24}{section*.15}%
+\contentsline {subsection}{\normalsize Bananenbrot}{26}{section*.16}%
+\contentsline {subsection}{\normalsize Schoko-Erdbeeren Mochi}{27}{section*.17}%
+\contentsline {subsection}{\normalsize Orangen-Possets}{28}{section*.18}%
+\contentsline {subsection}{\normalsize Tiramisu Brownies}{29}{section*.19}%
+\contentsline {subsection}{\normalsize Tiramisu Chocolate Cake}{31}{section*.20}%
+\contentsline {section}{\numberline {7}Getränke}{33}{section.7}%
+\contentsline {subsection}{\normalsize Club Mate Sirup}{34}{section*.21}%
