@@ -412,6 +412,14 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fontawesome5/fa5free1solid.tfm
+INPUT /usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomefree0.fd
+INPUT /usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomefree0.fd
+INPUT /usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomefree0.fd
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fontawesome5/fa5free0solid.tfm
+INPUT /usr/share/texmf/tex/latex/lm/ts1lmr.fd
+INPUT /usr/share/texmf/tex/latex/lm/ts1lmr.fd
+INPUT /usr/share/texmf/tex/latex/lm/ts1lmr.fd
+INPUT /usr/share/texmf/fonts/tfm/public/lm/ts1-lmr10.tfm
 INPUT /usr/share/texlive/texmf-dist/tex/latex/ifsym/uifsym.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/ifsym/uifsym.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/ifsym/uifsym.fd
@@ -421,6 +429,8 @@ INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmri10.tfm
 INPUT ./pic/adrianhieber.png
 INPUT /usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc
 INPUT /usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc
+INPUT /usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc
+INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc
 INPUT ./rezepte/03_hauptgericht/01_gnocci-zitrone.tex
 INPUT ./rezepte/03_hauptgericht/01_gnocci-zitrone.tex
 INPUT ./pic/adrianhieber.png
@@ -461,15 +471,10 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/ifsym/uifwea.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/ifsym/uifwea.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/ifsym/uifwea.fd
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/ifsym/ifwea10.tfm
-INPUT /usr/share/texmf/tex/latex/lm/ts1lmr.fd
-INPUT /usr/share/texmf/tex/latex/lm/ts1lmr.fd
-INPUT /usr/share/texmf/tex/latex/lm/ts1lmr.fd
-INPUT /usr/share/texmf/fonts/tfm/public/lm/ts1-lmr10.tfm
 INPUT ./pic/adrianhieber.png
 INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc
 INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc
 INPUT ./pic/adrianhieber.png
-INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc
 INPUT ./rezepte/03_hauptgericht/04_flammkuchen.tex
 INPUT ./rezepte/03_hauptgericht/04_flammkuchen.tex
 OUTPUT %OUTDIR%/rezepte/03_hauptgericht/04_flammkuchen.aux
@@ -525,6 +530,7 @@ INPUT ./pic/dessert/02_karamelisierte-feigen.jpg
 INPUT ./pic/dessert/02_karamelisierte-feigen.jpg
 INPUT ./pic/dessert/02_karamelisierte-feigen.jpg
 INPUT ./pic/dessert/02_karamelisierte-feigen.jpg
+INPUT ./pic/adrianhieber.png
 INPUT ./pic/adrianhieber.png
 INPUT ./rezepte/06_dessert/03_bananenbrot.tex
 INPUT ./rezepte/06_dessert/03_bananenbrot.tex
@@ -594,7 +600,7 @@ INPUT %OUTDIR%/rezepte/07_getraenke/01_club-mate.aux
 INPUT %OUTDIR%/book.out
 INPUT %OUTDIR%/book.out
 INPUT /home/adrian/.texlive2023/texmf-var/fonts/pk/ljfour/public/ifsym/ifwea10.657pk
-INPUT /home/adrian/.texlive2023/texmf-var/fonts/pk/ljfour/public/ifsym/ifsym10.657pk
+INPUT /home/adrian/.texlive2023/texmf-var/fonts/pk/ljfour/public/ifsym/ifsym10.810pk
 INPUT /home/adrian/.texlive2023/texmf-var/fonts/pk/ljfour/public/cookingsymbols/cookingsymbols.870pk
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb

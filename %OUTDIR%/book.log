@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.2.25)  26 FEB 2026 21:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.2.25)  26 FEB 2026 22:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -660,16 +660,22 @@ Package pdftex.def Info: pic/adrianhieber.png  used on input line 102.
 \openout2 = `rezepte/02_vorspeise/01_zwiebelsuppe.aux'.
 
  (./rezepte/02_vorspeise/01_zwiebelsuppe.tex
-LaTeX Font Info:    Trying to load font information for T1+fjd on input line 47.
-LaTeX Font Info:    No file T1fjd.fd. on input line 47.
+LaTeX Font Info:    Trying to load font information for T1+fjd on input line 48.
+LaTeX Font Info:    No file T1fjd.fd. on input line 48.
 
 
 LaTeX Font Warning: Font shape `T1/fjd/m/n' undefined
-(Font)              using `T1/cmr/m/n' instead on input line 47.
+(Font)              using `T1/cmr/m/n' instead on input line 48.
 
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on input line 47.
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on input line 48.
 (/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd)
-LaTeX Font Info:    Trying to load font information for U+ifsym on input line 47.
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree0 on input line 48.
+ (/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomefree0.fd)
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 48.
+ (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for U+ifsym on input line 48.
  (/usr/share/texlive/texmf-dist/tex/latex/ifsym/uifsym.fd))
 File: pic/adrianhieber.png Graphic file (type png)
 <use pic/adrianhieber.png>
@@ -677,7 +683,7 @@ Package pdftex.def Info: pic/adrianhieber.png  used on input line 102.
 (pdftex.def)             Requested size: 398.34863pt x 267.87347pt.
  [4
 
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}]
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}]
 File: pic/adrianhieber.png Graphic file (type png)
 <use pic/adrianhieber.png>
 Package pdftex.def Info: pic/adrianhieber.png  used on input line 117.
@@ -689,19 +695,19 @@ Package pdftex.def Info: pic/adrianhieber.png  used on input line 117.
 \openout2 = `rezepte/03_hauptgericht/01_gnocci-zitrone.aux'.
 
  (./rezepte/03_hauptgericht/01_gnocci-zitrone.tex
-<pic/hauptgericht/01_gnocci-zitrone.jpg, id=157, 4015.0pt x 3011.25pt>
+<pic/hauptgericht/01_gnocci-zitrone.jpg, id=159, 4015.0pt x 3011.25pt>
 File: pic/hauptgericht/01_gnocci-zitrone.jpg Graphic file (type jpg)
 <use pic/hauptgericht/01_gnocci-zitrone.jpg>
-Package pdftex.def Info: pic/hauptgericht/01_gnocci-zitrone.jpg  used on input line 51.
+Package pdftex.def Info: pic/hauptgericht/01_gnocci-zitrone.jpg  used on input line 52.
 (pdftex.def)             Requested size: 227.59534pt x 170.6965pt.
 
-Overfull \hbox (134.77441pt too wide) in paragraph at lines 51--51
+Overfull \hbox (134.77441pt too wide) in paragraph at lines 52--52
 [] 
  []
 
 File: pic/adrianhieber.png Graphic file (type png)
 <use pic/adrianhieber.png>
-Package pdftex.def Info: pic/adrianhieber.png  used on input line 51.
+Package pdftex.def Info: pic/adrianhieber.png  used on input line 52.
 (pdftex.def)             Requested size: 398.34863pt x 267.87347pt.
 [6
 
@@ -726,25 +732,21 @@ Package pdftex.def Info: pic/adrianhieber.png  used on input line 118.
 \openout2 = `rezepte/03_hauptgericht/03_veganer-sauerbraten.aux'.
 
  (./rezepte/03_hauptgericht/03_veganer-sauerbraten.tex
-<pic/hauptgericht/03_veganer-sauerbraten-big.jpg, id=188, 2545.51pt x 1862.96pt>
+<pic/hauptgericht/03_veganer-sauerbraten-big.jpg, id=190, 2545.51pt x 1862.96pt>
 File: pic/hauptgericht/03_veganer-sauerbraten-big.jpg Graphic file (type jpg)
 <use pic/hauptgericht/03_veganer-sauerbraten-big.jpg>
-Package pdftex.def Info: pic/hauptgericht/03_veganer-sauerbraten-big.jpg  used on input line 102.
+Package pdftex.def Info: pic/hauptgericht/03_veganer-sauerbraten-big.jpg  used on input line 103.
 (pdftex.def)             Requested size: 233.24203pt x 170.70079pt.
-<pic/hauptgericht/03_veganer-sauerbraten-small.jpg, id=189, 3083.52pt x 4111.36pt>
+<pic/hauptgericht/03_veganer-sauerbraten-small.jpg, id=191, 3083.52pt x 4111.36pt>
 File: pic/hauptgericht/03_veganer-sauerbraten-small.jpg Graphic file (type jpg)
 <use pic/hauptgericht/03_veganer-sauerbraten-small.jpg>
-Package pdftex.def Info: pic/hauptgericht/03_veganer-sauerbraten-small.jpg  used on input line 102.
+Package pdftex.def Info: pic/hauptgericht/03_veganer-sauerbraten-small.jpg  used on input line 103.
 (pdftex.def)             Requested size: 128.02486pt x 170.69981pt.
-LaTeX Font Info:    Trying to load font information for U+ifwea on input line 102.
+LaTeX Font Info:    Trying to load font information for U+ifwea on input line 103.
  (/usr/share/texlive/texmf-dist/tex/latex/ifsym/uifwea.fd)
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 102.
- (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
-File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
 File: pic/adrianhieber.png Graphic file (type png)
 <use pic/adrianhieber.png>
-Package pdftex.def Info: pic/adrianhieber.png  used on input line 102.
+Package pdftex.def Info: pic/adrianhieber.png  used on input line 103.
 (pdftex.def)             Requested size: 398.34863pt x 267.87347pt.
  [9
 
@@ -755,7 +757,7 @@ File: pic/adrianhieber.png Graphic file (type png)
 <use pic/adrianhieber.png>
 Package pdftex.def Info: pic/adrianhieber.png  used on input line 119.
 (pdftex.def)             Requested size: 398.34863pt x 267.87347pt.
- [10{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}]
+ [10]
 \openout2 = `rezepte/03_hauptgericht/04_flammkuchen.aux'.
 
  (./rezepte/03_hauptgericht/04_flammkuchen.tex)
@@ -849,21 +851,25 @@ Package pdftex.def Info: pic/adrianhieber.png  used on input line 159.
 \openout2 = `rezepte/06_dessert/02_karamelisierte-feigen.aux'.
 
  (./rezepte/06_dessert/02_karamelisierte-feigen.tex
-<pic/dessert/02_karamelisierte-feigen.jpg, id=289, 3011.25pt x 2020.54875pt>
+<pic/dessert/02_karamelisierte-feigen.jpg, id=290, 3011.25pt x 2020.54875pt>
 File: pic/dessert/02_karamelisierte-feigen.jpg Graphic file (type jpg)
 <use pic/dessert/02_karamelisierte-feigen.jpg>
-Package pdftex.def Info: pic/dessert/02_karamelisierte-feigen.jpg  used on input line 55.
+Package pdftex.def Info: pic/dessert/02_karamelisierte-feigen.jpg  used on input line 56.
 (pdftex.def)             Requested size: 254.4136pt x 170.71153pt.
-)
 File: pic/adrianhieber.png Graphic file (type png)
 <use pic/adrianhieber.png>
-Package pdftex.def Info: pic/adrianhieber.png  used on input line 160.
+Package pdftex.def Info: pic/adrianhieber.png  used on input line 56.
 (pdftex.def)             Requested size: 398.34863pt x 267.87347pt.
  [20
 
 
 
- <./pic/dessert/02_karamelisierte-feigen.jpg>]
+ <./pic/dessert/02_karamelisierte-feigen.jpg>])
+File: pic/adrianhieber.png Graphic file (type png)
+<use pic/adrianhieber.png>
+Package pdftex.def Info: pic/adrianhieber.png  used on input line 160.
+(pdftex.def)             Requested size: 398.34863pt x 267.87347pt.
+ [21]
 \openout2 = `rezepte/06_dessert/03_bananenbrot.aux'.
 
  (./rezepte/06_dessert/03_bananenbrot.tex)
@@ -871,7 +877,7 @@ File: pic/adrianhieber.png Graphic file (type png)
 <use pic/adrianhieber.png>
 Package pdftex.def Info: pic/adrianhieber.png  used on input line 161.
 (pdftex.def)             Requested size: 398.34863pt x 267.87347pt.
- [21
+ [22
 
 
 
@@ -883,7 +889,7 @@ File: pic/adrianhieber.png Graphic file (type png)
 <use pic/adrianhieber.png>
 Package pdftex.def Info: pic/adrianhieber.png  used on input line 162.
 (pdftex.def)             Requested size: 398.34863pt x 267.87347pt.
- [22
+ [23
 
 
 
@@ -892,14 +898,14 @@ File: pic/adrianhieber.png Graphic file (type png)
 <use pic/adrianhieber.png>
 Package pdftex.def Info: pic/adrianhieber.png  used on input line 181.
 (pdftex.def)             Requested size: 398.34863pt x 267.87347pt.
- [23
+ [24
 
 
 ]
 \openout2 = `rezepte/07_getraenke/01_club-mate.aux'.
 
  (./rezepte/07_getraenke/01_club-mate.tex
-Overfull \hbox (4.39067pt too wide) in paragraph at lines 61--61
+Overfull \hbox (4.39067pt too wide) in paragraph at lines 62--62
 []\T1/lmr/m/n/10.95 Zitronensäure ein-rüh-ren und voll-stän-dig ab-küh-len las-
  []
 
@@ -908,7 +914,7 @@ File: pic/adrianhieber.png Graphic file (type png)
 <use pic/adrianhieber.png>
 Package pdftex.def Info: pic/adrianhieber.png  used on input line 181.
 (pdftex.def)             Requested size: 398.34863pt x 267.87347pt.
- [24
+ [25
 
 ] (%OUTDIR%/book.aux (%OUTDIR%/rezepte/02_vorspeise/01_zwiebelsuppe.aux) (%OUTDIR%/rezepte/03_hauptgericht/01_gnocci-zitrone.aux) (%OUTDIR%/rezepte/03_hauptgericht/02_dal-makhani.aux) (%OUTDIR%/rezepte/03_hauptgericht/03_veganer-sauerbraten.aux) (%OUTDIR%/rezepte/03_hauptgericht/04_flammkuchen.aux) (%OUTDIR%/rezepte/03_hauptgericht/05_karamelisierte-zwiebel-pasta.aux) (%OUTDIR%/rezepte/03_hauptgericht/06_bolognese.aux) (%OUTDIR%/rezepte/04_schnellekueche/01_nudeln-erdnusssauce.aux) (%OUTDIR%/rezepte/05_fruehstueck/01_savory-oatmeal.aux) (%OUTDIR%/rezepte/06_dessert/01_fudgy-vegan-brownie.aux) (%OUTDIR%/rezepte/06_dessert/02_karamelisierte-feigen.aux) (%OUTDIR%/rezepte/06_dessert/03_bananenbrot.aux) (%OUTDIR%/rezepte/06_dessert/04_schoko-erdbeeren-mochi.aux) (%OUTDIR%/rezepte/07_getraenke/01_club-mate.aux))
  ***********
@@ -923,18 +929,18 @@ Package rerunfilecheck Info: File `book.out' has not changed.
 (rerunfilecheck)             Checksum: D83437F8FF7C07B2C10B34AEB811970D;2924.
  ) 
 Here is how much of TeX's memory you used:
- 26030 strings out of 474222
- 510701 string characters out of 5748733
+ 26057 strings out of 474222
+ 511366 string characters out of 5748733
  1942975 words of memory out of 5000000
- 47558 multiletter control sequences out of 15000+600000
- 622188 words of font info for 82 fonts, out of 8000000 for 9000
+ 47579 multiletter control sequences out of 15000+600000
+ 622496 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 117i,14n,121p,497b,754s stack positions out of 10000i,1000n,20000p,200000b,200000s
- </home/adrian/.texlive2023/texmf-var/fonts/pk/ljfour/public/ifsym/ifwea10.657pk> </home/adrian/.texlive2023/texmf-var/fonts/pk/ljfour/public/ifsym/ifsym10.657pk> </home/adrian/.texlive2023/texmf-var/fonts/pk/ljfour/public/cookingsymbols/cookingsymbols.870pk></usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm2488.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on %OUTDIR%/book.pdf (24 pages, 6885330 bytes).
+ 117i,14n,121p,497b,758s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ </home/adrian/.texlive2023/texmf-var/fonts/pk/ljfour/public/ifsym/ifwea10.657pk> </home/adrian/.texlive2023/texmf-var/fonts/pk/ljfour/public/ifsym/ifsym10.810pk> </home/adrian/.texlive2023/texmf-var/fonts/pk/ljfour/public/cookingsymbols/cookingsymbols.870pk></usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm2488.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
+Output written on %OUTDIR%/book.pdf (25 pages, 6902131 bytes).
 PDF statistics:
- 447 PDF objects out of 1000 (max. 8388607)
- 379 compressed objects within 4 object streams
- 141 named destinations out of 1000 (max. 500000)
+ 456 PDF objects out of 1000 (max. 8388607)
+ 386 compressed objects within 4 object streams
+ 142 named destinations out of 1000 (max. 500000)
  206 words of extra memory for PDF output out of 10000 (max. 10000000)
 

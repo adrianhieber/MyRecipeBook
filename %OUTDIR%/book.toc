@@ -16,7 +16,7 @@
 \contentsline {section}{\numberline {6}Desserts}{18}{section.6}%
 \contentsline {subsection}{\normalsize Fudgy Vegane Brownies}{19}{section*.11}%
 \contentsline {subsection}{\normalsize Karamellisierte Feigen}{20}{section*.12}%
-\contentsline {subsection}{\normalsize Bananenbrot}{21}{section*.13}%
-\contentsline {subsection}{\normalsize Schoko-Erdbeeren Mochi}{22}{section*.14}%
-\contentsline {section}{\numberline {7}Getränke}{23}{section.7}%
-\contentsline {subsection}{\normalsize Club Mate Sirup}{24}{section*.15}%
+\contentsline {subsection}{\normalsize Bananenbrot}{22}{section*.13}%
+\contentsline {subsection}{\normalsize Schoko-Erdbeeren Mochi}{23}{section*.14}%
+\contentsline {section}{\numberline {7}Getränke}{24}{section.7}%
+\contentsline {subsection}{\normalsize Club Mate Sirup}{25}{section*.15}%

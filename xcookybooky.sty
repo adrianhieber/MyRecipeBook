@@ -241,8 +241,9 @@
 \define@key{headlines}{portion}[\fontsize{14.5pt}{10pt}\Dish]{\def\xcb@name@portion{#1}}
 \define@key{headlines}{portionvalue}[Portions]{\def\xcb@name@portionvalue{#1}}
 \define@key{headlines}{calory}[\fontsize{14.5pt}{10pt}\faFire]{\def\xcb@name@calory{#1}}
-\define@key{headlines}{source}[\PaperPortrait]{\def\xcb@name@source{#1}}
+\define@key{headlines}{source}[\fontsize{13.5pt}{10pt}\PaperPortrait]{\def\xcb@name@source{#1}}
 \define@key{headlines}{rating}[\fontsize{14.5pt}{10pt}\fullstar]{\def\xcb@name@rating{#1}}
+\define@key{headlines}{price}[\fontsize{12.5pt}{10pt}\faCoins]{\def\xcb@name@price{#1}}
 \savekeys{headlines}
 {
     inghead,
@@ -257,7 +258,8 @@
     portionvalue,
     calory,
     rating,
-    source
+    source,
+    price
 }
 \newcommand*{\setHeadlines}[1]
 {%
@@ -277,7 +279,8 @@
     portionvalue,
     calory,
     rating,
-    source
+    source,
+    price
 }
 
 \IfLanguagePatterns{ngerman}
@@ -580,6 +583,12 @@
         {
             \xcb@name@calory & \xcb@calory\\
         }
+        \ifthenelse{\equal{\xcb@price}{}}
+        {% not set => not shown
+        }
+        {
+            \xcb@name@price & \xcb@price\\
+        }
         \ifthenelse{\equal{\xcb@source}{}}
         {% not set => not shown
         }
@@ -640,6 +649,8 @@
 \define@key{recipe}{source}[]{\def\xcb@source{#1}}
 \def\xcb@rating{}
 \define@key{recipe}{rating}[]{\def\xcb@rating{#1}}
+\def\xcb@price{}
+\define@key{recipe}{price}[]{\def\xcb@price{#1}}
 
 \newcommand*{\xcb@separationgraph}[2][1.5]
 {% Graphical separator
@@ -714,7 +725,7 @@
 
 \newenvironment{recipe}[2][]
 {% initialisation
-    \setkeys{recipe}{preparationtime, bakingtime, bakingtemperature, portion, calory,rating, source}
+    \setkeys{recipe}{preparationtime, bakingtime, bakingtemperature, portion, calory,rating, source, price}
     \setkeys{picture}{small, big, smallpicturewidth=\xcb@smallpicturewidth, bigpicturewidth=\xcb@bigpicturewidth} % load the default values
     \def\xcb@hook@pregraph{}
     \def\xcb@hook@pretitle{}
