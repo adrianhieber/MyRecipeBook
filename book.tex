@@ -11,6 +11,8 @@ a4paper,
 \usepackage[ngerman]{babel}
 \usepackage{hyperref}
 \usepackage{nicefrac}
+\usepackage{makeidx}
+\makeindex
 
 \usepackage[
     handwritten,
@@ -60,21 +62,54 @@ a4paper,
 \setBackgroundPicture[x, y=-2cm, width=\paperwidth-7cm, height, orientation = pagecenter]
 {pic/adrianhieber}
 
-\title{Rezeptbuch}
-\author{Adrian Hieber\\ \href{mailto:adrian.hieber@gmail.com}{adrian.hieber@gmail.com}}
-\maketitle
+% --- TITELSEITE (custom, Name/Datum weiter unten) ---
+\begin{titlepage}
+    % Hintergrund nur auf der Titelseite
+    \ClearShipoutPictureBG
+    
 
-\begin{abstract}
-    \noindent 
-    Mein Name ist Adrian Hieber. Ich bin Student und koche in meiner Freizeit sehr gerne. Für mich ist Kochen ein Hobby, bei dem ich entspannen und kreativ sein kann.
-    Ich bin Vegetarier, deshalb sind alle Rezepte in diesem Kochbuch ohne Fleisch. Ich möchte mit diesem Buch meine Lieblingsrezepte sammeln und für mich und meine Freunde festhalten. Vielleicht bekommt ihr ja auch Lust, ein paar Gerichte auszuprobieren.
-    Die PDF-Vorlage für dieses Dokument habe ich von \url{https://code.google.com/p/xcookybooky/} mit leichten Veränderungen übernommen.
+    \thispagestyle{empty}
 
-\end{abstract}
+    % Optional: etwas Abstand von oben
+    \vspace*{1.5cm}
 
+    \begin{center}
+        {\Huge \textbf{Rezeptbuch}\par}
+        \vspace{0.5cm}
+        {\Large Eine iterative Sammlung\par}
+    \end{center}
+
+    % Abstract-Text im oberen/mittleren Bereich
+    \vspace{1.2cm}
+    \begin{abstract}
+        \noindent
+        Mein Name ist Adrian Hieber. Ich bin Student und koche in meiner Freizeit sehr gerne. Für mich ist Kochen ein Hobby, bei dem ich entspannen und kreativ sein kann.
+        Ich bin Vegetarier, deshalb sind alle Rezepte in diesem Kochbuch ohne Fleisch. Ich möchte mit diesem Buch meine Lieblingsrezepte sammeln und für mich und meine Freunde festhalten. Vielleicht bekommt ihr ja auch Lust, ein paar Gerichte auszuprobieren.
+        Die PDF-Vorlage für dieses Dokument habe ich von \url{https://code.google.com/p/xcookybooky/} mit leichten Veränderungen übernommen.
+    \end{abstract}
+
+    % Drückt den unteren Block nach unten
+    \vfill
+
+    % Name/Datum relativ unten
+    \begin{center}
+        {\Large \textbf{Adrian Hieber}\par}
+        \vspace{0.2cm}
+        \href{mailto:adrian.hieber@gmail.com}{adrian.hieber@gmail.com}\par
+        \vspace{0.4cm}
+        {\large \today\par}
+    \end{center}
+
+    % Optional: noch minimal Abstand zum unteren Rand
+    \vspace*{1.2cm}
+\end{titlepage}
+
+% Danach Hintergrund wieder entfernen/neutral setzen (optional)
+%------------------------------------------------------------
+\clearpage
+\setBackgroundPicture[x, y=-2cm, width=\paperwidth-7cm, height, orientation = pagecenter]{pic/adrianhieber}
 \tableofcontents
-
-\vspace{5em}
+\clearpage
 %------------------------------------------------------------
 \section{Vorwort}
 In diesem Kapitel findest du meine liebsten Rezepte, die ich immer wieder gerne koche. Es sind einfache Gerichte, die gut in den Studentenalltag passen und nicht kompliziert sind.
@@ -186,5 +221,36 @@ dann ist das trotzdem besser als gekauft.
 
 \include{rezepte/07_getraenke/01_club-mate}
 
+%------------------------------------------------------------
+\clearpage
+\section{Abschluss}
 
+\begin{center}
+\vspace{2cm}
+
+{\Huge \textbf{Danke fürs Kochen!}}
+
+\vspace{1cm}
+
+Dieses Buch ist nicht nur eine Sammlung von Rezepten,  
+sondern ein wachsendes Projekt.
+
+\vspace{0.5cm}
+
+Neue Ideen, bessere Varianten, Preisänderungen etc. Falls du gute Rezepte hast kannst du sie mir gerne schicken.
+
+\vspace{1cm}
+
+\textit{Kochen ist Iteration.}
+
+\vfill
+
+\Large
+Adrian\\
+\the\year
+\end{center}
+
+%------------------------------------------------------------
+\clearpage
+\printindex
 \end{document} 

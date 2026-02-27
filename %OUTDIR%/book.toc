@@ -1,5 +1,5 @@
 \babel@toc {ngerman}{}\relax 
-\contentsline {section}{\numberline {1}Vorwort}{2}{section.1}%
+\contentsline {section}{\numberline {1}Vorwort}{3}{section.1}%
 \contentsline {section}{\numberline {2}Vorspeisen}{3}{section.2}%
 \contentsline {subsection}{\normalsize Zwiebelsuppe}{4}{section*.2}%
 \contentsline {subsection}{\normalsize Acili Ezme}{5}{section*.3}%
@@ -26,3 +26,4 @@
 \contentsline {subsection}{\normalsize Tiramisu Chocolate Cake}{31}{section*.20}%
 \contentsline {section}{\numberline {7}Getränke}{33}{section.7}%
 \contentsline {subsection}{\normalsize Club Mate Sirup}{34}{section*.21}%
+\contentsline {section}{\numberline {8}Abschluss}{36}{section.8}%
