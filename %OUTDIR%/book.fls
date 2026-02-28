@@ -222,6 +222,8 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/cookingsymbols/cookingsymbols.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/cookingsymbols/cookingsymbols.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/paracol/paracol.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/paracol/paracol.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/iflang.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/iflang.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
@@ -468,6 +470,7 @@ INPUT ./pic/vorspeise/03_brokkoli-rote-beete.jpg
 INPUT ./pic/vorspeise/03_brokkoli-rote-beete.jpg
 INPUT ./pic/vorspeise/03_brokkoli-rote-beete.jpg
 INPUT ./pic/vorspeise/03_brokkoli-rote-beete.jpg
+INPUT ./pic/adrianhieber.png
 INPUT ./pic/adrianhieber.png
 INPUT ./rezepte/03_hauptgericht/01_gnocci-zitrone.tex
 INPUT ./rezepte/03_hauptgericht/01_gnocci-zitrone.tex

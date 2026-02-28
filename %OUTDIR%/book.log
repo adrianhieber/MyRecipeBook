@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.2.25)  27 FEB 2026 01:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.2.25)  28 FEB 2026 12:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -440,16 +440,43 @@ Package: cookingsymbols 2014/12/28 v1.1 symbols for recipes by Sven Harder
 \WF@box=\box62
 \WF@everypar=\toks32
 Package: wrapfig 2003/01/31  v 3.6
+) (/usr/share/texlive/texmf-dist/tex/latex/paracol/paracol.sty
+Package: paracol 2018/12/31 v1.35 
+\pcol@currcol=\count301
+\pcol@nextcol=\count302
+\pcol@ncol=\count303
+\pcol@ncolleft=\count304
+\pcol@page=\count305
+\pcol@basepage=\count306
+\pcol@toppage=\count307
+\pcol@footnotebase=\count308
+\pcol@nfootnotes=\count309
+\pcol@mcid=\count310
+\pcol@prevdepth=\dimen258
+\pcol@colht=\dimen259
+\pcol@textfloatsep=\dimen260
+\pcol@lrmargin=\dimen261
+\pagerim=\dimen262
+\pcol@topskip=\skip57
+\belowfootnoteskip=\skip58
+\pcol@topfnotes=\box63
+\pcol@prespan=\box64
+\pcol@rightpage=\box65
+\pcol@colorstack@saved=\box66
+\pcol@tempboxa=\box67
+\pcol@tempboxb=\box68
+\pcol@colorins=\insert252
+\pcol@everyvbox=\toks33
 ) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/iflang.sty
 Package: iflang 2018/01/21 v1.7 Checks for the current language (HO)
 Package iflang Info: Naming convention for patterns: babel.
 ) (/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
  (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks33
-\XKV@tempa@toks=\toks34
+\XKV@toks=\toks34
+\XKV@tempa@toks=\toks35
 )
-\XKV@depth=\count301
+\XKV@depth=\count311
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 )) (/usr/share/texlive/texmf-dist/tex/latex/lettrine/lettrine.sty
 File: lettrine.sty 2024-01-20 v2.60 (Daniel Flipo)
@@ -457,59 +484,59 @@ File: lettrine.sty 2024-01-20 v2.60 (Daniel Flipo)
 Package: expl3 2024-01-22 L3 programming layer (loader) 
  (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count302
-\l__pdf_internal_box=\box63
+\l__color_backend_stack_int=\count312
+\l__pdf_internal_box=\box69
 ))
 Package: xfp 2023-10-10 L3 Floating point unit
 )
-\c@DefaultLines=\count303
-\c@DefaultDepth=\count304
-\DefaultFindent=\dimen258
-\DefaultNindent=\dimen259
-\DefaultSlope=\dimen260
-\DiscardVskip=\dimen261
-\L@lettrine=\box64
-\L@lbox=\box65
-\L@tbox=\box66
-\c@L@lines=\count305
-\c@L@depth=\count306
-\L@Pindent=\dimen262
-\L@Findent=\dimen263
-\L@Nindent=\dimen264
-\L@lraise=\dimen265
-\L@first=\dimen266
-\L@next=\dimen267
-\L@slope=\dimen268
-\L@height=\dimen269
-\L@novskip=\dimen270
-\L@ruleht=\dimen271
-\L@target@ht=\dimen272
-\L@target@dp=\dimen273
-\L@target@tht=\dimen274
-\LettrineWidth=\dimen275
-\LettrineHeight=\dimen276
-\LettrineDepth=\dimen277
+\c@DefaultLines=\count313
+\c@DefaultDepth=\count314
+\DefaultFindent=\dimen263
+\DefaultNindent=\dimen264
+\DefaultSlope=\dimen265
+\DiscardVskip=\dimen266
+\L@lettrine=\box70
+\L@lbox=\box71
+\L@tbox=\box72
+\c@L@lines=\count315
+\c@L@depth=\count316
+\L@Pindent=\dimen267
+\L@Findent=\dimen268
+\L@Nindent=\dimen269
+\L@lraise=\dimen270
+\L@first=\dimen271
+\L@next=\dimen272
+\L@slope=\dimen273
+\L@height=\dimen274
+\L@novskip=\dimen275
+\L@ruleht=\dimen276
+\L@target@ht=\dimen277
+\L@target@dp=\dimen278
+\L@target@tht=\dimen279
+\LettrineWidth=\dimen280
+\LettrineHeight=\dimen281
+\LettrineDepth=\dimen282
 
 Loading lettrine.cfg
 (/usr/share/texlive/texmf-dist/tex/latex/lettrine/lettrine.cfg)
-\Llist@everypar=\toks35
+\Llist@everypar=\toks36
 ) (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
-\f@nch@headwidth=\skip57
-\f@nch@O@elh=\skip58
-\f@nch@O@erh=\skip59
-\f@nch@O@olh=\skip60
-\f@nch@O@orh=\skip61
-\f@nch@O@elf=\skip62
-\f@nch@O@erf=\skip63
-\f@nch@O@olf=\skip64
-\f@nch@O@orf=\skip65
+\f@nch@headwidth=\skip59
+\f@nch@O@elh=\skip60
+\f@nch@O@erh=\skip61
+\f@nch@O@olh=\skip62
+\f@nch@O@orh=\skip63
+\f@nch@O@elf=\skip64
+\f@nch@O@erf=\skip65
+\f@nch@O@olf=\skip66
+\f@nch@O@orf=\skip67
 ) (/usr/share/texlive/texmf-dist/tex/latex/units/units.sty
 Package: units 1998/08/04 v0.9b Typesetting units
 ) (/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
 Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
-\ESO@tempdima=\dimen278
-\ESO@tempdimb=\dimen279
+\ESO@tempdima=\dimen283
+\ESO@tempdimb=\dimen284
 ) (/usr/share/texlive/texmf-dist/tex/latex/picture/picture.sty
 Package: picture 2020-04-22 v1.6 Dimens for picture macros (HO)
 Package picture Info: Calculation method: calc.
@@ -517,26 +544,26 @@ Package picture Info: Calculation method: calc.
 Package: tabulary 2014/06/11 v0.10 tabulary package (DPC)
  (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
 Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
-\col@sep=\dimen280
-\ar@mcellbox=\box67
-\extrarowheight=\dimen281
-\NC@list=\toks36
-\extratabsurround=\skip66
-\backup@length=\skip67
-\ar@cellbox=\box68
+\col@sep=\dimen285
+\ar@mcellbox=\box73
+\extrarowheight=\dimen286
+\NC@list=\toks37
+\extratabsurround=\skip68
+\backup@length=\skip69
+\ar@cellbox=\box74
 )
-\TY@count=\count307
-\TY@linewidth=\dimen282
-\tymin=\dimen283
-\tymax=\dimen284
-\TY@tablewidth=\dimen285
+\TY@count=\count317
+\TY@linewidth=\dimen287
+\tymin=\dimen288
+\tymax=\dimen289
+\TY@tablewidth=\dimen290
 ) (/usr/share/texlive/texmf-dist/tex/latex/framed/framed.sty
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
-\OuterFrameSep=\skip68
-\fb@frw=\dimen286
-\fb@frh=\dimen287
-\FrameRule=\dimen288
-\FrameSep=\dimen289
+\OuterFrameSep=\skip70
+\fb@frw=\dimen291
+\fb@frh=\dimen292
+\FrameRule=\dimen293
+\FrameSep=\dimen294
 ) (/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/fontawesome5.sty
 Package: fontawesome5 2022/05/02 v5.15.4 Font Awesome 5
  (/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
@@ -555,86 +582,86 @@ LaTeX Font Info:    Trying to load font information for U+psy on input line 64.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/upsy.fd
 File: upsy.fd 2001/06/04 font definitions for U/psy.
 ))
-\c@step=\count308
-\c@xcb@newpagehead=\count309
-\c@xcb@newpagefoot=\count310
+\c@step=\count318
+\c@xcb@newpagehead=\count319
+\c@xcb@newpagefoot=\count320
 )
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 55.
-Package hyperref Info: Option `colorlinks' set `true' on input line 55.
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 59.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 59.
+Package hyperref Info: Option `colorlinks' set `true' on input line 59.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 63.
  (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (%OUTDIR%/book.aux (%OUTDIR%/rezepte/02_vorspeise/01_zwiebelsuppe.aux) (%OUTDIR%/rezepte/02_vorspeise/02_acili-ezme.aux) (%OUTDIR%/rezepte/02_vorspeise/03_brokkoli-rote-beete.aux) (%OUTDIR%/rezepte/03_hauptgericht/01_gnocci-zitrone.aux) (%OUTDIR%/rezepte/03_hauptgericht/02_dal-makhani.aux) (%OUTDIR%/rezepte/03_hauptgericht/03_veganer-sauerbraten.aux) (%OUTDIR%/rezepte/03_hauptgericht/04_flammkuchen.aux) (%OUTDIR%/rezepte/03_hauptgericht/05_karamelisierte-zwiebel-pasta.aux) (%OUTDIR%/rezepte/03_hauptgericht/06_bolognese.aux) (%OUTDIR%/rezepte/03_hauptgericht/07_veggi-beef-wellington.aux) (%OUTDIR%/rezepte/04_schnellekueche/01_nudeln-erdnusssauce.aux) (%OUTDIR%/rezepte/05_fruehstueck/01_savory-oatmeal.aux) (%OUTDIR%/rezepte/06_dessert/01_fudgy-vegan-brownie.aux) (%OUTDIR%/rezepte/06_dessert/02_karamelisierte-feigen.aux) (%OUTDIR%/rezepte/06_dessert/03_bananenbrot.aux) (%OUTDIR%/rezepte/06_dessert/04_schoko-erdbeeren-mochi.aux) (%OUTDIR%/rezepte/06_dessert/05_orange-posset.aux) (%OUTDIR%/rezepte/06_dessert/06_tiramisu-brownie.aux) (%OUTDIR%/rezepte/06_dessert/07_tiramisu-cake.aux) (%OUTDIR%/rezepte/07_getraenke/01_club-mate.aux))
 \openout1 = `book.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-Package hyperref Info: Link coloring ON on input line 59.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+Package hyperref Info: Link coloring ON on input line 63.
  (%OUTDIR%/book.out) (%OUTDIR%/book.out)
 \@outlinefile=\write5
 \openout5 = `book.out'.
 
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count311
-\scratchdimen=\dimen290
-\scratchbox=\box69
-\nofMPsegments=\count312
-\nofMParguments=\count313
-\everyMPshowfont=\toks37
-\MPscratchCnt=\count314
-\MPscratchDim=\dimen291
-\MPnumerator=\count315
-\makeMPintoPDFobject=\count316
-\everyMPtoPDFconversion=\toks38
+\scratchcounter=\count321
+\scratchdimen=\dimen295
+\scratchbox=\box75
+\nofMPsegments=\count322
+\nofMParguments=\count323
+\everyMPshowfont=\toks38
+\MPscratchCnt=\count324
+\MPscratchDim=\dimen296
+\MPnumerator=\count325
+\makeMPintoPDFobject=\count326
+\everyMPtoPDFconversion=\toks39
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 88.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 92.
  (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 88.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 92.
  (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 88.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 92.
  (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 88.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 92.
  (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 88.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 92.
  (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 88.
+(Font)              <10> on input line 92.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 88.
+(Font)              <7> on input line 92.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 88.
+(Font)              <5> on input line 92.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}] (%OUTDIR%/book.toc
@@ -648,7 +675,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.28 ...rmalsize Club Mate Sirup}{34}{section*.21}
+l.28 ...rmalsize Club Mate Sirup}{35}{section*.21}
                                                   %
 <pic/adrianhieber.png, id=157, 750.805pt x 504.88625pt>
 File: pic/adrianhieber.png Graphic file (type png)
@@ -663,12 +690,12 @@ Package pdftex.def Info: pic/adrianhieber.png  used on input line 28.
 
 File: pic/adrianhieber.png Graphic file (type png)
 <use pic/adrianhieber.png>
-Package pdftex.def Info: pic/adrianhieber.png  used on input line 112.
+Package pdftex.def Info: pic/adrianhieber.png  used on input line 116.
 (pdftex.def)             Requested size: 398.34863pt x 267.87347pt.
  [2]
 File: pic/adrianhieber.png Graphic file (type png)
 <use pic/adrianhieber.png>
-Package pdftex.def Info: pic/adrianhieber.png  used on input line 137.
+Package pdftex.def Info: pic/adrianhieber.png  used on input line 141.
 (pdftex.def)             Requested size: 398.34863pt x 267.87347pt.
  [3
 
@@ -692,20 +719,35 @@ LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 48
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for U+ifsym on input line 48.
- (/usr/share/texlive/texmf-dist/tex/latex/ifsym/uifsym.fd))
+ (/usr/share/texlive/texmf-dist/tex/latex/ifsym/uifsym.fd)
+Overfull \hbox (10.57703pt too wide) in paragraph at lines 48--48
+[]\T1/lmr/m/n/10.95 Zwiebeln in Halb-rin-ge schnei-den und lang-
+ []
+
+
+Overfull \hbox (0.94998pt too wide) has occurred while \output is active
+[] []
+ []
+
+)
 File: pic/adrianhieber.png Graphic file (type png)
 <use pic/adrianhieber.png>
-Package pdftex.def Info: pic/adrianhieber.png  used on input line 137.
+Package pdftex.def Info: pic/adrianhieber.png  used on input line 141.
 (pdftex.def)             Requested size: 398.34863pt x 267.87347pt.
  [4
 
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}]
 \openout2 = `rezepte/02_vorspeise/02_acili-ezme.aux'.
 
- (./rezepte/02_vorspeise/02_acili-ezme.tex)
+ (./rezepte/02_vorspeise/02_acili-ezme.tex
+Overfull \hbox (1.5018pt too wide) in paragraph at lines 36--36
+\T1/lmr/m/n/10.95 aus-drücken, da-mit über-schüs-si-ger Saft ent-fernt wird. 
+ []
+
+)
 File: pic/adrianhieber.png Graphic file (type png)
 <use pic/adrianhieber.png>
-Package pdftex.def Info: pic/adrianhieber.png  used on input line 138.
+Package pdftex.def Info: pic/adrianhieber.png  used on input line 142.
 (pdftex.def)             Requested size: 398.34863pt x 267.87347pt.
  [5
 
@@ -720,10 +762,15 @@ File: pic/vorspeise/03_brokkoli-rote-beete.jpg Graphic file (type jpg)
 <use pic/vorspeise/03_brokkoli-rote-beete.jpg>
 Package pdftex.def Info: pic/vorspeise/03_brokkoli-rote-beete.jpg  used on input line 43.
 (pdftex.def)             Requested size: 220.95778pt x 170.71259pt.
+
+Overfull \hbox (2.44418pt too wide) in paragraph at lines 43--43
+[]\T1/lmr/m/n/10.95 Hummus auf ei-nem Tel-ler ver-strei-chen, Brok-ko-li dar-
+ []
+
 )
 File: pic/adrianhieber.png Graphic file (type png)
 <use pic/adrianhieber.png>
-Package pdftex.def Info: pic/adrianhieber.png  used on input line 139.
+Package pdftex.def Info: pic/adrianhieber.png  used on input line 143.
 (pdftex.def)             Requested size: 398.34863pt x 267.87347pt.
  [6
 
@@ -732,40 +779,65 @@ Package pdftex.def Info: pic/adrianhieber.png  used on input line 139.
  <./pic/vorspeise/03_brokkoli-rote-beete.jpg>]
 File: pic/adrianhieber.png Graphic file (type png)
 <use pic/adrianhieber.png>
-Package pdftex.def Info: pic/adrianhieber.png  used on input line 154.
+Package pdftex.def Info: pic/adrianhieber.png  used on input line 143.
 (pdftex.def)             Requested size: 398.34863pt x 267.87347pt.
- [7
+ [7]
+File: pic/adrianhieber.png Graphic file (type png)
+<use pic/adrianhieber.png>
+Package pdftex.def Info: pic/adrianhieber.png  used on input line 158.
+(pdftex.def)             Requested size: 398.34863pt x 267.87347pt.
+ [8
 
 
 ]
 \openout2 = `rezepte/03_hauptgericht/01_gnocci-zitrone.aux'.
 
  (./rezepte/03_hauptgericht/01_gnocci-zitrone.tex
-<pic/hauptgericht/01_gnocci-zitrone.jpg, id=218, 4015.0pt x 3011.25pt>
+<pic/hauptgericht/01_gnocci-zitrone.jpg, id=222, 4015.0pt x 3011.25pt>
 File: pic/hauptgericht/01_gnocci-zitrone.jpg Graphic file (type jpg)
 <use pic/hauptgericht/01_gnocci-zitrone.jpg>
 Package pdftex.def Info: pic/hauptgericht/01_gnocci-zitrone.jpg  used on input line 52.
 (pdftex.def)             Requested size: 227.59534pt x 170.6965pt.
+
+Overfull \hbox (2.35313pt too wide) in paragraph at lines 52--52
+\T1/lmr/m/n/10.95 warm zer-stamp-fen. Zi-tro-nen-a-brieb, Spei-se-stär-ke und
+ []
+
+
+Overfull \hbox (2.15593pt too wide) in paragraph at lines 52--52
+[]\T1/lmr/bx/n/10.95 Kräuteröl: \T1/lmr/m/n/10.95 Pe-ter-si-lie mit Oli-ven-öl fein pü-rie-ren und
+ []
+
 File: pic/adrianhieber.png Graphic file (type png)
 <use pic/adrianhieber.png>
 Package pdftex.def Info: pic/adrianhieber.png  used on input line 52.
 (pdftex.def)             Requested size: 398.34863pt x 267.87347pt.
- [8
+[9
 
  <./pic/hauptgericht/01_gnocci-zitrone.jpg>])
 File: pic/adrianhieber.png Graphic file (type png)
 <use pic/adrianhieber.png>
-Package pdftex.def Info: pic/adrianhieber.png  used on input line 154.
+Package pdftex.def Info: pic/adrianhieber.png  used on input line 158.
 (pdftex.def)             Requested size: 398.34863pt x 267.87347pt.
- [9]
+ [10]
 \openout2 = `rezepte/03_hauptgericht/02_dal-makhani.aux'.
 
- (./rezepte/03_hauptgericht/02_dal-makhani.tex)
+ (./rezepte/03_hauptgericht/02_dal-makhani.tex
+Overfull \hbox (7.31157pt too wide) in paragraph at lines 69--69
+[]\T1/lmr/m/n/10.95 Zwiebel, Knob-lauch, Ing-wer und Ka-rot-te klein schnei-
+ []
+
+
+Overfull \hbox (3.23666pt too wide) in paragraph at lines 69--69
+[]\T1/lmr/m/n/10.95 Weitere 10^^U15 Mi-nu-ten kö-cheln, bis die Lin-sen weich,
+ []
+
+)
 File: pic/adrianhieber.png Graphic file (type png)
 <use pic/adrianhieber.png>
-Package pdftex.def Info: pic/adrianhieber.png  used on input line 155.
+Package pdftex.def Info: pic/adrianhieber.png  used on input line 159.
 (pdftex.def)             Requested size: 398.34863pt x 267.87347pt.
- [10
+ [11
 
 
 
@@ -773,40 +845,54 @@ Package pdftex.def Info: pic/adrianhieber.png  used on input line 155.
 \openout2 = `rezepte/03_hauptgericht/03_veganer-sauerbraten.aux'.
 
  (./rezepte/03_hauptgericht/03_veganer-sauerbraten.tex
-<pic/hauptgericht/03_veganer-sauerbraten-big.jpg, id=246, 2545.51pt x 1862.96pt>
+<pic/hauptgericht/03_veganer-sauerbraten-big.jpg, id=250, 2545.51pt x 1862.96pt>
 File: pic/hauptgericht/03_veganer-sauerbraten-big.jpg Graphic file (type jpg)
 <use pic/hauptgericht/03_veganer-sauerbraten-big.jpg>
-Package pdftex.def Info: pic/hauptgericht/03_veganer-sauerbraten-big.jpg  used on input line 103.
+Package pdftex.def Info: pic/hauptgericht/03_veganer-sauerbraten-big.jpg  used on input line 107.
 (pdftex.def)             Requested size: 233.24203pt x 170.70079pt.
-<pic/hauptgericht/03_veganer-sauerbraten-small.jpg, id=247, 3083.52pt x 4111.36pt>
+<pic/hauptgericht/03_veganer-sauerbraten-small.jpg, id=251, 3083.52pt x 4111.36pt>
 File: pic/hauptgericht/03_veganer-sauerbraten-small.jpg Graphic file (type jpg)
 <use pic/hauptgericht/03_veganer-sauerbraten-small.jpg>
-Package pdftex.def Info: pic/hauptgericht/03_veganer-sauerbraten-small.jpg  used on input line 103.
+Package pdftex.def Info: pic/hauptgericht/03_veganer-sauerbraten-small.jpg  used on input line 107.
 (pdftex.def)             Requested size: 128.02486pt x 170.69981pt.
-LaTeX Font Info:    Trying to load font information for U+ifwea on input line 103.
+LaTeX Font Info:    Trying to load font information for U+ifwea on input line 107.
  (/usr/share/texlive/texmf-dist/tex/latex/ifsym/uifwea.fd)
+Overfull \hbox (1.80623pt too wide) in paragraph at lines 107--107
+\T1/lmr/m/n/10.95 ten, Was-ser mehr-fach wech-seln, bis es nur noch leicht
+ []
+
+
+Overfull \hbox (6.96187pt too wide) in paragraph at lines 107--107
+[]\T1/lmr/bx/n/10.95 Würzen & for-men: \T1/lmr/m/n/10.95 Sei-tan flach drücken, mit Würz-
+ []
+
+
+Overfull \hbox (0.15688pt too wide) in paragraph at lines 107--107
+[]\T1/lmr/bx/n/10.95 Sud vor-be-rei-ten: \T1/lmr/m/n/10.95 Al-le Sud-Zutaten auf-ko-chen und
+ []
+
 File: pic/adrianhieber.png Graphic file (type png)
 <use pic/adrianhieber.png>
-Package pdftex.def Info: pic/adrianhieber.png  used on input line 103.
+Package pdftex.def Info: pic/adrianhieber.png  used on input line 107.
 (pdftex.def)             Requested size: 398.34863pt x 267.87347pt.
- [11
+[12
 
 
 
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc} <./pic/hauptgericht/03_veganer-sauerbraten-big.jpg> <./pic/hauptgericht/03_veganer-sauerbraten-small.jpg>])
 File: pic/adrianhieber.png Graphic file (type png)
 <use pic/adrianhieber.png>
-Package pdftex.def Info: pic/adrianhieber.png  used on input line 156.
+Package pdftex.def Info: pic/adrianhieber.png  used on input line 160.
 (pdftex.def)             Requested size: 398.34863pt x 267.87347pt.
- [12]
+ [13]
 \openout2 = `rezepte/03_hauptgericht/04_flammkuchen.aux'.
 
  (./rezepte/03_hauptgericht/04_flammkuchen.tex)
 File: pic/adrianhieber.png Graphic file (type png)
 <use pic/adrianhieber.png>
-Package pdftex.def Info: pic/adrianhieber.png  used on input line 157.
+Package pdftex.def Info: pic/adrianhieber.png  used on input line 161.
 (pdftex.def)             Requested size: 398.34863pt x 267.87347pt.
- [13
+ [14
 
 
 
@@ -816,9 +902,9 @@ Package pdftex.def Info: pic/adrianhieber.png  used on input line 157.
  (./rezepte/03_hauptgericht/05_karamelisierte-zwiebel-pasta.tex)
 File: pic/adrianhieber.png Graphic file (type png)
 <use pic/adrianhieber.png>
-Package pdftex.def Info: pic/adrianhieber.png  used on input line 158.
+Package pdftex.def Info: pic/adrianhieber.png  used on input line 162.
 (pdftex.def)             Requested size: 398.34863pt x 267.87347pt.
- [14
+ [15
 
 
 
@@ -828,9 +914,9 @@ Package pdftex.def Info: pic/adrianhieber.png  used on input line 158.
  (./rezepte/03_hauptgericht/06_bolognese.tex)
 File: pic/adrianhieber.png Graphic file (type png)
 <use pic/adrianhieber.png>
-Package pdftex.def Info: pic/adrianhieber.png  used on input line 159.
+Package pdftex.def Info: pic/adrianhieber.png  used on input line 163.
 (pdftex.def)             Requested size: 398.34863pt x 267.87347pt.
- [15
+ [16
 
 
 
@@ -838,35 +924,45 @@ Package pdftex.def Info: pic/adrianhieber.png  used on input line 159.
 \openout2 = `rezepte/03_hauptgericht/07_veggi-beef-wellington.aux'.
 
  (./rezepte/03_hauptgericht/07_veggi-beef-wellington.tex
-<pic/hauptgericht/07_veggi-beef-wellington-big.jpg, id=303, 326.78609pt x 238.32181pt>
+<pic/hauptgericht/07_veggi-beef-wellington-big.jpg, id=307, 326.78609pt x 238.32181pt>
 File: pic/hauptgericht/07_veggi-beef-wellington-big.jpg Graphic file (type jpg)
 <use pic/hauptgericht/07_veggi-beef-wellington-big.jpg>
-Package pdftex.def Info: pic/hauptgericht/07_veggi-beef-wellington-big.jpg  used on input line 71.
+Package pdftex.def Info: pic/hauptgericht/07_veggi-beef-wellington-big.jpg  used on input line 72.
 (pdftex.def)             Requested size: 234.09406pt x 170.72244pt.
-<pic/hauptgericht/07_veggi-beef-wellington-small.jpg, id=304, 290.04683pt x 386.7291pt>
+<pic/hauptgericht/07_veggi-beef-wellington-small.jpg, id=308, 290.04683pt x 386.7291pt>
 File: pic/hauptgericht/07_veggi-beef-wellington-small.jpg Graphic file (type jpg)
 <use pic/hauptgericht/07_veggi-beef-wellington-small.jpg>
-Package pdftex.def Info: pic/hauptgericht/07_veggi-beef-wellington-small.jpg  used on input line 71.
+Package pdftex.def Info: pic/hauptgericht/07_veggi-beef-wellington-small.jpg  used on input line 72.
 (pdftex.def)             Requested size: 128.03702pt x 170.71602pt.
+
+Overfull \hbox (3.20502pt too wide) in paragraph at lines 72--72
+[]\T1/lmr/m/n/10.95 Restliche Pilz-mas-se dar-über ge-ben und zu ei-ner kom-
+ []
+
+
+Overfull \hbox (0.74142pt too wide) in paragraph at lines 72--72
+[]\T1/lmr/m/n/10.95 Blätterteig dar-über schla-gen, mit Ei be-strei-chen und
+ []
+
 File: pic/adrianhieber.png Graphic file (type png)
 <use pic/adrianhieber.png>
-Package pdftex.def Info: pic/adrianhieber.png  used on input line 71.
+Package pdftex.def Info: pic/adrianhieber.png  used on input line 72.
 (pdftex.def)             Requested size: 398.34863pt x 267.87347pt.
- [16
+[17
 
 
 
  <./pic/hauptgericht/07_veggi-beef-wellington-big.jpg> <./pic/hauptgericht/07_veggi-beef-wellington-small.jpg>])
 File: pic/adrianhieber.png Graphic file (type png)
 <use pic/adrianhieber.png>
-Package pdftex.def Info: pic/adrianhieber.png  used on input line 160.
+Package pdftex.def Info: pic/adrianhieber.png  used on input line 164.
 (pdftex.def)             Requested size: 398.34863pt x 267.87347pt.
- [17]
+ [18]
 File: pic/adrianhieber.png Graphic file (type png)
 <use pic/adrianhieber.png>
-Package pdftex.def Info: pic/adrianhieber.png  used on input line 175.
+Package pdftex.def Info: pic/adrianhieber.png  used on input line 179.
 (pdftex.def)             Requested size: 398.34863pt x 267.87347pt.
- [18
+ [19
 
 
 ]
@@ -875,34 +971,39 @@ Package pdftex.def Info: pic/adrianhieber.png  used on input line 175.
  (./rezepte/04_schnellekueche/01_nudeln-erdnusssauce.tex)
 File: pic/adrianhieber.png Graphic file (type png)
 <use pic/adrianhieber.png>
-Package pdftex.def Info: pic/adrianhieber.png  used on input line 175.
+Package pdftex.def Info: pic/adrianhieber.png  used on input line 179.
 (pdftex.def)             Requested size: 398.34863pt x 267.87347pt.
- [19
+ [20
 
 ]
 File: pic/adrianhieber.png Graphic file (type png)
 <use pic/adrianhieber.png>
-Package pdftex.def Info: pic/adrianhieber.png  used on input line 180.
+Package pdftex.def Info: pic/adrianhieber.png  used on input line 184.
 (pdftex.def)             Requested size: 398.34863pt x 267.87347pt.
- [20
+ [21
 
 
 ]
 \openout2 = `rezepte/05_fruehstueck/01_savory-oatmeal.aux'.
 
- (./rezepte/05_fruehstueck/01_savory-oatmeal.tex)
+ (./rezepte/05_fruehstueck/01_savory-oatmeal.tex
+Overfull \hbox (4.33014pt too wide) in paragraph at lines 57--57
+[]\T1/lmr/m/n/10.95 Frühlingszwiebeln ha-cken, mit Se-sam-öl in ei-ner Pfan-
+ []
+
+)
 File: pic/adrianhieber.png Graphic file (type png)
 <use pic/adrianhieber.png>
-Package pdftex.def Info: pic/adrianhieber.png  used on input line 180.
+Package pdftex.def Info: pic/adrianhieber.png  used on input line 184.
 (pdftex.def)             Requested size: 398.34863pt x 267.87347pt.
- [21
+ [22
 
 ]
 File: pic/adrianhieber.png Graphic file (type png)
 <use pic/adrianhieber.png>
-Package pdftex.def Info: pic/adrianhieber.png  used on input line 197.
+Package pdftex.def Info: pic/adrianhieber.png  used on input line 201.
 (pdftex.def)             Requested size: 398.34863pt x 267.87347pt.
- [22
+ [23
 
 
 ]
@@ -911,15 +1012,15 @@ Package pdftex.def Info: pic/adrianhieber.png  used on input line 197.
  (./rezepte/06_dessert/01_fudgy-vegan-brownie.tex)
 File: pic/adrianhieber.png Graphic file (type png)
 <use pic/adrianhieber.png>
-Package pdftex.def Info: pic/adrianhieber.png  used on input line 197.
+Package pdftex.def Info: pic/adrianhieber.png  used on input line 201.
 (pdftex.def)             Requested size: 398.34863pt x 267.87347pt.
- [23
+ [24
 
 ]
 \openout2 = `rezepte/06_dessert/02_karamelisierte-feigen.aux'.
 
  (./rezepte/06_dessert/02_karamelisierte-feigen.tex
-<pic/dessert/02_karamelisierte-feigen.jpg, id=369, 3011.25pt x 2020.54875pt>
+<pic/dessert/02_karamelisierte-feigen.jpg, id=374, 3011.25pt x 2020.54875pt>
 File: pic/dessert/02_karamelisierte-feigen.jpg Graphic file (type jpg)
 <use pic/dessert/02_karamelisierte-feigen.jpg>
 Package pdftex.def Info: pic/dessert/02_karamelisierte-feigen.jpg  used on input line 56.
@@ -928,36 +1029,41 @@ File: pic/adrianhieber.png Graphic file (type png)
 <use pic/adrianhieber.png>
 Package pdftex.def Info: pic/adrianhieber.png  used on input line 56.
 (pdftex.def)             Requested size: 398.34863pt x 267.87347pt.
- [24
+ [25
 
 
 
  <./pic/dessert/02_karamelisierte-feigen.jpg>])
 File: pic/adrianhieber.png Graphic file (type png)
 <use pic/adrianhieber.png>
-Package pdftex.def Info: pic/adrianhieber.png  used on input line 198.
+Package pdftex.def Info: pic/adrianhieber.png  used on input line 202.
 (pdftex.def)             Requested size: 398.34863pt x 267.87347pt.
- [25]
+ [26]
 \openout2 = `rezepte/06_dessert/03_bananenbrot.aux'.
 
  (./rezepte/06_dessert/03_bananenbrot.tex)
 File: pic/adrianhieber.png Graphic file (type png)
 <use pic/adrianhieber.png>
-Package pdftex.def Info: pic/adrianhieber.png  used on input line 199.
+Package pdftex.def Info: pic/adrianhieber.png  used on input line 203.
 (pdftex.def)             Requested size: 398.34863pt x 267.87347pt.
- [26
+ [27
 
 
 
 ]
 \openout2 = `rezepte/06_dessert/04_schoko-erdbeeren-mochi.aux'.
 
- (./rezepte/06_dessert/04_schoko-erdbeeren-mochi.tex)
+ (./rezepte/06_dessert/04_schoko-erdbeeren-mochi.tex
+Overfull \hbox (4.92415pt too wide) in paragraph at lines 51--51
+[]\T1/lmr/bx/n/10.95 Pfanne: \T1/lmr/m/n/10.95 In ei-ner be-schich-te-ten Pfan-ne bei mitt-
+ []
+
+)
 File: pic/adrianhieber.png Graphic file (type png)
 <use pic/adrianhieber.png>
-Package pdftex.def Info: pic/adrianhieber.png  used on input line 200.
+Package pdftex.def Info: pic/adrianhieber.png  used on input line 204.
 (pdftex.def)             Requested size: 398.34863pt x 267.87347pt.
- [27
+ [28
 
 
 
@@ -967,9 +1073,9 @@ Package pdftex.def Info: pic/adrianhieber.png  used on input line 200.
  (./rezepte/06_dessert/05_orange-posset.tex)
 File: pic/adrianhieber.png Graphic file (type png)
 <use pic/adrianhieber.png>
-Package pdftex.def Info: pic/adrianhieber.png  used on input line 201.
+Package pdftex.def Info: pic/adrianhieber.png  used on input line 205.
 (pdftex.def)             Requested size: 398.34863pt x 267.87347pt.
- [28
+ [29
 
 
 
@@ -981,20 +1087,20 @@ File: pic/adrianhieber.png Graphic file (type png)
 <use pic/adrianhieber.png>
 Package pdftex.def Info: pic/adrianhieber.png  used on input line 60.
 (pdftex.def)             Requested size: 398.34863pt x 267.87347pt.
- [29
+ [30
 
 
 
 ])
 File: pic/adrianhieber.png Graphic file (type png)
 <use pic/adrianhieber.png>
-Package pdftex.def Info: pic/adrianhieber.png  used on input line 202.
+Package pdftex.def Info: pic/adrianhieber.png  used on input line 206.
 (pdftex.def)             Requested size: 398.34863pt x 267.87347pt.
- [30]
+ [31]
 \openout2 = `rezepte/06_dessert/07_tiramisu-cake.aux'.
 
  (./rezepte/06_dessert/07_tiramisu-cake.tex
-<pic/dessert/07_tiramisu-cake.jpg, id=442, 1111.15125pt x 851.18pt>
+<pic/dessert/07_tiramisu-cake.jpg, id=446, 1111.15125pt x 851.18pt>
 File: pic/dessert/07_tiramisu-cake.jpg Graphic file (type jpg)
 <use pic/dessert/07_tiramisu-cake.jpg>
 Package pdftex.def Info: pic/dessert/07_tiramisu-cake.jpg  used on input line 59.
@@ -1003,54 +1109,49 @@ File: pic/adrianhieber.png Graphic file (type png)
 <use pic/adrianhieber.png>
 Package pdftex.def Info: pic/adrianhieber.png  used on input line 59.
 (pdftex.def)             Requested size: 398.34863pt x 267.87347pt.
- [31
+ [32
 
 
 
  <./pic/dessert/07_tiramisu-cake.jpg>])
 File: pic/adrianhieber.png Graphic file (type png)
 <use pic/adrianhieber.png>
-Package pdftex.def Info: pic/adrianhieber.png  used on input line 203.
+Package pdftex.def Info: pic/adrianhieber.png  used on input line 207.
 (pdftex.def)             Requested size: 398.34863pt x 267.87347pt.
- [32]
+ [33]
 File: pic/adrianhieber.png Graphic file (type png)
 <use pic/adrianhieber.png>
-Package pdftex.def Info: pic/adrianhieber.png  used on input line 222.
+Package pdftex.def Info: pic/adrianhieber.png  used on input line 226.
 (pdftex.def)             Requested size: 398.34863pt x 267.87347pt.
- [33
+ [34
 
 
 ]
 \openout2 = `rezepte/07_getraenke/01_club-mate.aux'.
 
  (./rezepte/07_getraenke/01_club-mate.tex
-<pic/getraenke/01_club-mate.jpg, id=465, 1128.215pt x 918.43124pt>
+<pic/getraenke/01_club-mate.jpg, id=469, 1128.215pt x 918.43124pt>
 File: pic/getraenke/01_club-mate.jpg Graphic file (type jpg)
 <use pic/getraenke/01_club-mate.jpg>
 Package pdftex.def Info: pic/getraenke/01_club-mate.jpg  used on input line 60.
 (pdftex.def)             Requested size: 209.69777pt x 170.70592pt.
-
-Overfull \hbox (4.39067pt too wide) in paragraph at lines 60--60
-[]\T1/lmr/m/n/10.95 Zitronensäure ein-rüh-ren und voll-stän-dig ab-küh-len las-
- []
-
 File: pic/adrianhieber.png Graphic file (type png)
 <use pic/adrianhieber.png>
 Package pdftex.def Info: pic/adrianhieber.png  used on input line 60.
 (pdftex.def)             Requested size: 398.34863pt x 267.87347pt.
-[34
+ [35
 
  <./pic/getraenke/01_club-mate.jpg>])
 File: pic/adrianhieber.png Graphic file (type png)
 <use pic/adrianhieber.png>
-Package pdftex.def Info: pic/adrianhieber.png  used on input line 222.
+Package pdftex.def Info: pic/adrianhieber.png  used on input line 226.
 (pdftex.def)             Requested size: 398.34863pt x 267.87347pt.
- [35]
+ [36]
 File: pic/adrianhieber.png Graphic file (type png)
 <use pic/adrianhieber.png>
-Package pdftex.def Info: pic/adrianhieber.png  used on input line 254.
+Package pdftex.def Info: pic/adrianhieber.png  used on input line 258.
 (pdftex.def)             Requested size: 398.34863pt x 267.87347pt.
- [36
+ [37
 
 
 
@@ -1059,7 +1160,7 @@ File: pic/adrianhieber.png Graphic file (type png)
 <use pic/adrianhieber.png>
 Package pdftex.def Info: pic/adrianhieber.png  used on input line 19.
 (pdftex.def)             Requested size: 398.34863pt x 267.87347pt.
- [37
+ [38
 
 
 
@@ -1076,18 +1177,18 @@ Package rerunfilecheck Info: File `book.out' has not changed.
 (rerunfilecheck)             Checksum: 1056F3A64188AF84B2CC9CA35603E10B;3927.
  ) 
 Here is how much of TeX's memory you used:
- 26370 strings out of 474222
- 523766 string characters out of 5748733
- 1942975 words of memory out of 5000000
- 47780 multiletter control sequences out of 15000+600000
+ 27079 strings out of 474222
+ 535709 string characters out of 5748733
+ 1941975 words of memory out of 5000000
+ 48484 multiletter control sequences out of 15000+600000
  621566 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 117i,14n,121p,497b,758s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 117i,14n,121p,497b,914s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </home/adrian/.texlive2023/texmf-var/fonts/pk/ljfour/public/ifsym/ifwea10.657pk> </home/adrian/.texlive2023/texmf-var/fonts/pk/ljfour/public/ifsym/ifsym10.810pk> </home/adrian/.texlive2023/texmf-var/fonts/pk/ljfour/public/cookingsymbols/cookingsymbols.870pk></usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm2488.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on %OUTDIR%/book.pdf (38 pages, 8216985 bytes).
+Output written on %OUTDIR%/book.pdf (39 pages, 8217698 bytes).
 PDF statistics:
- 624 PDF objects out of 1000 (max. 8388607)
- 534 compressed objects within 6 object streams
- 207 named destinations out of 1000 (max. 500000)
+ 628 PDF objects out of 1000 (max. 8388607)
+ 537 compressed objects within 6 object streams
+ 208 named destinations out of 1000 (max. 500000)
  287 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -57,6 +57,7 @@
     %\RequirePackage{emerald}                 % Handwritten Fonts
 \fi
 \RequirePackage{wrapfig}                     % To wrap the tabular with the ingredients
+\RequirePackage{paracol}
 
 \RequirePackage{iflang}                      % detecting the language
 \RequirePackage{ifthen}
@@ -428,10 +429,20 @@
         \xcb@name@inghead
         \\[1em]
         {\xcb@fontsize@ing\color{\xcb@color@ing}
-        \begin{tabulary}{\xcb@ingredientswidth}{rL}
+        \begin{tabulary}{\linewidth}{rL}
             #2
         \end{tabulary}}
     }
+}
+\def\xcb@ingredientsB{}
+\newcommand{\ingredientsB}[2][\empty]{%
+    \def\xcb@ingredientslinesB{#1}
+    \def\xcb@ingredientsB{%
+        {\xcb@fontsize@ing\color{\xcb@color@ing}
+        \begin{tabulary}{\linewidth}{rL}
+            #2
+        \end{tabulary}}%
+    }%
 }
 
 \newcommand{\preparation}[1]
@@ -785,36 +796,36 @@
     \xcb@introduction
 
 %% THIRD BLOCK
-    \ifthenelse{\equal{\xcb@ingredientslines}{\empty}}%
-    {%
-        \begin{wraptable}{r}{\xcb@ingredientswidth}
-        {% No line number given by the user
-            \vspace{-1em}    % same height of ingredients and preparation
-            \xcb@hook@preingredients
+    %% THIRD BLOCK
 
-            \xcb@ingredients
+    \begin{paracol}{2}
+        \setlength{\columnsep}{1em}
+        \setcolumnwidth{\xcb@preparationwidth,\xcb@ingredientswidth}
 
-            \xcb@hook@postingredients
+        % Links: Zubereitung
+        \switchcolumn[0]
+        \xcb@hook@prepreparation
+        \xcb@preparation
+        \xcb@hook@postpreparation
+
+        % Rechts: Zutaten
+        \switchcolumn
+        \xcb@hook@preingredients
+        \xcb@ingredients
+        \xcb@hook@postingredients
+
+        % Wenn es einen zweiten Zutatenblock gibt -> sauber auf neue Seite synchronisieren
+        \ifthenelse{\equal{\xcb@ingredientsB}{}}{}{%
+            %\flushpage
+            \xcb@ingredientsB
         }
-        \end{wraptable}
-    }
-    {%
-        \begin{wraptable}[\xcb@ingredientslines]{r}{\xcb@ingredientswidth}
-        {% Use the given line number by the user
-            \vspace{-1em}    % same height of ingredients and preparation
-            \xcb@hook@preingredients
+    \end{paracol}
 
-            \xcb@ingredients
+    %\xcb@hook@prepreparation
 
-            \xcb@hook@postingredients
-        }
-        \end{wraptable}
-    }
-    \xcb@hook@prepreparation
+    %\xcb@preparation
 
-    \xcb@preparation
-
-    \xcb@hook@postpreparation
+    %\xcb@hook@postpreparation
 
     \xcb@suggestion
 

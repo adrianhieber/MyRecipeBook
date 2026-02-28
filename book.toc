@@ -1,0 +1,29 @@
+\babel@toc {ngerman}{}\relax 
+\contentsline {section}{\numberline {1}Vorwort}{3}{section.1}%
+\contentsline {section}{\numberline {2}Vorspeisen}{3}{section.2}%
+\contentsline {subsection}{\normalsize Zwiebelsuppe}{4}{section*.2}%
+\contentsline {subsection}{\normalsize Acili Ezme}{5}{section*.3}%
+\contentsline {subsection}{\normalsize Brokkoli auf Rote-Beete-Hummus}{6}{section*.4}%
+\contentsline {section}{\numberline {3}Hauptgerichte}{8}{section.3}%
+\contentsline {subsection}{\normalsize Gnocchi mit Zitronen-Frischkäsefüllung auf Cashew-Weißwein-Sauce}{9}{section*.5}%
+\contentsline {subsection}{\normalsize Dal Makhani}{11}{section*.6}%
+\contentsline {subsection}{\normalsize Veganer Sauerbraten (Seitan)}{12}{section*.7}%
+\contentsline {subsection}{\normalsize Flammkuchen}{14}{section*.8}%
+\contentsline {subsection}{\normalsize Karamellisierte Zwiebel Pasta}{15}{section*.9}%
+\contentsline {subsection}{\normalsize Bolognese}{16}{section*.10}%
+\contentsline {subsection}{\normalsize Mushroom Wellington}{17}{section*.11}%
+\contentsline {section}{\numberline {4}Schnelle Küche}{19}{section.4}%
+\contentsline {subsection}{\normalsize Nudeln in Erdnusssauce}{20}{section*.12}%
+\contentsline {section}{\numberline {5}Frühstück}{21}{section.5}%
+\contentsline {subsection}{\normalsize Savory Oatmeal}{22}{section*.13}%
+\contentsline {section}{\numberline {6}Desserts}{23}{section.6}%
+\contentsline {subsection}{\normalsize Fudgy Vegane Brownies}{24}{section*.14}%
+\contentsline {subsection}{\normalsize Karamellisierte Feigen}{25}{section*.15}%
+\contentsline {subsection}{\normalsize Bananenbrot}{27}{section*.16}%
+\contentsline {subsection}{\normalsize Schoko-Erdbeeren Mochi}{28}{section*.17}%
+\contentsline {subsection}{\normalsize Orangen-Possets}{29}{section*.18}%
+\contentsline {subsection}{\normalsize Tiramisu Brownies}{30}{section*.19}%
+\contentsline {subsection}{\normalsize Tiramisu Chocolate Cake}{32}{section*.20}%
+\contentsline {section}{\numberline {7}Getränke}{34}{section.7}%
+\contentsline {subsection}{\normalsize Club Mate Sirup}{35}{section*.21}%
+\contentsline {section}{\numberline {8}Abschluss}{37}{section.8}%
