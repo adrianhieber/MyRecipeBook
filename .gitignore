@@ -9,6 +9,8 @@
 *.idx
 *.ilg
 *.ind
+*.maf
+*.mtc
 
 # Optional: build folder (falls du später einen nutzt)
 build/
