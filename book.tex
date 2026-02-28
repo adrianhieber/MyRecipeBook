@@ -14,6 +14,13 @@ a4paper,
 \usepackage{makeidx}
 \makeindex
 
+\usepackage{hyperref}
+
+\pdfstringdefDisableCommands{%
+  \def\step{}%
+  \def\lettrine#1#2{#1#2}%
+}
+
 \usepackage[
     handwritten,
     nowarnings,
