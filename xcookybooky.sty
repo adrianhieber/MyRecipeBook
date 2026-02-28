@@ -564,7 +564,7 @@
 %% INTERNAL COMMANDS
 \newcommand{\xcb@cmd@recipeoverview}
 {
-    \begin{tabular}{rl}
+    \begin{tabulary}{\linewidth}{rL}
         \ifthenelse{\equal{\xcb@preparationtime}{}}
         {% not set => not shown
         }
@@ -612,7 +612,7 @@
         {
             \xcb@name@rating & \ratingstars{\xcb@rating}
         }
-    \end{tabular}
+    \end{tabulary}
 }
 
 \newcommand\xcb@cmd@wrapfill
@@ -646,7 +646,7 @@
         {% not set => not shown
         }
         {
-            \vspace{-0.6cm}
+            \vspace{-1.9cm}
             \includegraphics[width=\linewidth, height = \xcb@pictureheight, keepaspectratio]{#1}
         }
     }
@@ -759,39 +759,22 @@
 {% this part is executed at \end{recipe}
 %% FIRST BLOCK
     \xcb@hook@pregraph
-    \if@twoside
-        \ifodd\arabic{page}
-            \begin{minipage}[T]{\xcb@picture@bigwidth}
-                \xcb@picture@big
-            \end{minipage}
-            \hfill
-            \begin{minipage}[T]{\xcb@picture@smallwidth}
-                \xcb@picture@small
-            \end{minipage}
-        \else
-            \begin{minipage}[T]{\xcb@picture@smallwidth}
-                \xcb@picture@small
-            \end{minipage}
-            \hfill
-            \begin{minipage}[T]{\xcb@picture@bigwidth}
-                \xcb@picture@big
-            \end{minipage}
-        \fi
-    \else
-        \begin{minipage}[T]{\xcb@picture@bigwidth}
-            \xcb@picture@big
-        \end{minipage}
-        \hfill
-        \begin{minipage}[T]{\xcb@picture@smallwidth}
-            \xcb@picture@small
-        \end{minipage}
-    \fi
 
 %% SECOND BLOCK
     \xcb@hook@pretitle
     \recipesection[\normalsize\xcb@recipename]%
     {\hspace{-1em}\textcolor{\xcb@color@recipename}{\xcb@font@recipename\xcb@recipename}}
-    \xcb@cmd@recipeoverview
+    % Titel ist schon gesetzt durch \recipesection ...
+    \noindent
+    \begin{minipage}[t]{\xcb@preparationwidth}
+        \xcb@cmd@recipeoverview
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{\xcb@ingredientswidth}
+        \xcb@picture@big
+    \end{minipage}
+
+    \vspace{0.5cm}
 
     \xcb@introduction
 
