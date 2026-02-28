@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.2.25)  27 FEB 2026 01:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.2.25)  27 FEB 2026 01:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -997,11 +997,11 @@ Package pdftex.def Info: pic/adrianhieber.png  used on input line 202.
 <pic/dessert/07_tiramisu-cake.jpg, id=442, 1111.15125pt x 851.18pt>
 File: pic/dessert/07_tiramisu-cake.jpg Graphic file (type jpg)
 <use pic/dessert/07_tiramisu-cake.jpg>
-Package pdftex.def Info: pic/dessert/07_tiramisu-cake.jpg  used on input line 58.
+Package pdftex.def Info: pic/dessert/07_tiramisu-cake.jpg  used on input line 59.
 (pdftex.def)             Requested size: 222.85364pt x 170.71353pt.
 File: pic/adrianhieber.png Graphic file (type png)
 <use pic/adrianhieber.png>
-Package pdftex.def Info: pic/adrianhieber.png  used on input line 58.
+Package pdftex.def Info: pic/adrianhieber.png  used on input line 59.
 (pdftex.def)             Requested size: 398.34863pt x 267.87347pt.
  [31
 
@@ -1024,7 +1024,7 @@ Package pdftex.def Info: pic/adrianhieber.png  used on input line 222.
 \openout2 = `rezepte/07_getraenke/01_club-mate.aux'.
 
  (./rezepte/07_getraenke/01_club-mate.tex
-<pic/getraenke/01_club-mate.jpg, id=464, 1128.215pt x 918.43124pt>
+<pic/getraenke/01_club-mate.jpg, id=465, 1128.215pt x 918.43124pt>
 File: pic/getraenke/01_club-mate.jpg Graphic file (type jpg)
 <use pic/getraenke/01_club-mate.jpg>
 Package pdftex.def Info: pic/getraenke/01_club-mate.jpg  used on input line 60.
@@ -1076,18 +1076,18 @@ Package rerunfilecheck Info: File `book.out' has not changed.
 (rerunfilecheck)             Checksum: 1056F3A64188AF84B2CC9CA35603E10B;3927.
  ) 
 Here is how much of TeX's memory you used:
- 26371 strings out of 474222
- 523783 string characters out of 5748733
+ 26370 strings out of 474222
+ 523766 string characters out of 5748733
  1942975 words of memory out of 5000000
- 47781 multiletter control sequences out of 15000+600000
- 621885 words of font info for 81 fonts, out of 8000000 for 9000
+ 47780 multiletter control sequences out of 15000+600000
+ 621566 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  117i,14n,121p,497b,758s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </home/adrian/.texlive2023/texmf-var/fonts/pk/ljfour/public/ifsym/ifwea10.657pk> </home/adrian/.texlive2023/texmf-var/fonts/pk/ljfour/public/ifsym/ifsym10.810pk> </home/adrian/.texlive2023/texmf-var/fonts/pk/ljfour/public/cookingsymbols/cookingsymbols.870pk></usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm2488.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on %OUTDIR%/book.pdf (38 pages, 8220046 bytes).
+Output written on %OUTDIR%/book.pdf (38 pages, 8216985 bytes).
 PDF statistics:
- 623 PDF objects out of 1000 (max. 8388607)
- 533 compressed objects within 6 object streams
+ 624 PDF objects out of 1000 (max. 8388607)
+ 534 compressed objects within 6 object streams
  207 named destinations out of 1000 (max. 500000)
  287 words of extra memory for PDF output out of 10000 (max. 10000000)
 
