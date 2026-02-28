@@ -25,6 +25,16 @@ a4paper,
 
 \newcommand{\recipesource}[2]{\href{#1}{#2}}
 
+\newcommand{\mylocaltableofcontents}{
+    \vspace{1em}
+  \etocsettocstyle{}{}%
+  \etocsettocdepth{subsection}%
+  \localtableofcontents%
+}
+
+\usepackage{etoc}
+%\etocsettocstyle{}{}
+
 \setcounter{secnumdepth}{1}
 \renewcommand*{\recipesection}[2][]
 {%
@@ -64,9 +74,7 @@ a4paper,
 % --- TITELSEITE (custom, Name/Datum weiter unten) ---
 \begin{titlepage}
     % Hintergrund nur auf der Titelseite
-    \ClearShipoutPictureBG
-    
-
+    \ClearShipoutPictureBG%
     \thispagestyle{empty}
 
     % Optional: etwas Abstand von oben
@@ -111,15 +119,19 @@ a4paper,
 \clearpage
 %------------------------------------------------------------
 \section{Vorwort}
-In diesem Kapitel findest du meine liebsten Rezepte, die ich immer wieder gerne koche. Es sind einfache Gerichte, die gut in den Studentenalltag passen und nicht kompliziert sind.
 
-Alle Rezepte sind vegetarisch und meistens mit Zutaten gemacht, die man leicht im Supermarkt bekommt. Manche Gerichte sind schnell gemacht, andere brauchen etwas mehr Zeit, aber alle sind es wert.
+Servus,\\
+bisher habe ich ein paar Rezepte wenn überhaupt in ein kleines Buch geschrieben, Problem ist aber, dass man dieses schwiereiger teilen kann. Wenn also jetzt jemand fragt, kann ich einfach das Pdf einem schicken, bzw den Link um immer die neuste Version zu bekommen.
 
-Ich habe versucht, die Schritte klar und verständlich aufzuschreiben, damit du die Gerichte einfach nachkochen kannst. Wenn du willst, kannst du sie natürlich auch verändern oder an deinen Geschmack anpassen.
+Du kannst auch gerne die Latex-Vorlage nehmen, ich habe sie auch online übernommen, aber noch etliche Anpassungen gemacht.
 
-Bei allen Rezepten wird auch angegeben, was die Nährwerte pro Portion ist, falls die Portion eine Spanne ist (2--3), so wird die niedrigere Nummer genommen. Außerdem wird in KLammern noch die Angabe für das Gericht mit Beilage zugefügt, die Zahl ohne Klammern gibt also nur die Nährwerte der Zutaten wieder.
+
+Jetzt aber konkret zu dem Rezeptbuch:\\
+Jedes Rezept enthält nicht nur die Zutaten und Schritte, sondern auch Tipps, Bilder und Daten wie mein persönliches Rating.
+Bei allen Rezepten wird auch angegeben, was die Nährwerte pro Portion ist, falls die Portion eine Spanne ist (2--3), so wird die niedrigere Nummer genommen. Außerdem wird in Klammern noch die Angabe für das Gericht mit Beilage zugefügt, die Zahl ohne Klammern gibt also nur die Nährwerte der Zutaten wieder. Das selbe gilt für die Preise, welche wie die Kalorien mittels ChatGPT berechnet wurden.
 
 Viel Spaß beim Kochen und Ausprobieren
+\newpage
 %\include{rezepte/Complete_Recipe}
 
 
@@ -128,97 +140,105 @@ Viel Spaß beim Kochen und Ausprobieren
 
 Wenn ich normal koche, dann mache ich mir eigentlich keine Vorspeise, da es einfach mehr Aufwand ist. Aber wenn man mal die Angelegntheit dazu hat, ist es auch schön und wichtig.
 
-Natürlich kann man auch als Vorspeise immer frisches Brot mit Olivenöl mit Salz und Pfeffer essen. Mit dunklem Balsamico dazu ist das auch richtig geil, aber habe mal gelesen, dass das die Italiener nicht so sehen, da es da guten Olivenöl nicht herauskommen lässt. Naja schmeckt trotzdem geil. 
-Am besten ist natürlich das geschenkte Olivenöl direkt an der Quelle, welches jedes Weihnachten kommt, thx Gabi.
+Natürlich kann man auch als Vorspeise immer frisches Brot mit Olivenöl mit Salz und Pfeffer essen. Mit dunklem Balsamico dazu ist das auch richtig geil, aber habe mal gelesen, dass das die Italiener nicht so sehen, da es den guten Olivenöl nicht herauskommen lässt. Naja schmeckt trotzdem geil. 
+Am besten ist natürlich das geschenkte Olivenöl direkt an der Quelle, welches jedes Weihnachten kommt, thx Gabi dafür.
 
-Naja aber es gibt natürlich noch weitere geile Sachen, deswegen fangen hier erstmal die Vorspeisen an.
+Naja aber es gibt natürlich noch weitere geile Sachen, deswegen fängt dieses Rezeptbuch hier erstmal mit den Vorspeisen an (Wäre eigentlich auch funny einfach die Desserts als erstes aufzulisten).
 
-\include{rezepte/02_vorspeise/01_zwiebelsuppe}
+\mylocaltableofcontents%
+
 \include{rezepte/02_vorspeise/02_acili-ezme}
 \include{rezepte/02_vorspeise/03_brokkoli-rote-beete}
-
+\include{rezepte/02_vorspeise/01_zwiebelsuppe}
+% naechstes rezept: 04_xxx
 
 %------------------------------------------------------------
 \section{Hauptgerichte}
-Wenn ich koche, dann eigentlich meistens direkt Hauptgericht.
-Das ist so der Moment, wo man merkt: okay, jetzt wird’s ernst. Jetzt wird nicht mehr nur gesnackt, jetzt wird richtig gegessen.
+Jetzt kommen wir zum Herzstück des Ganzen, den Hauptgerichten.  
+Ein Hauptgericht sollte satt machen und geil schmecken, ansonsten ist es kein gutes Essen, was ein Dessert oder gar die Vorspeiese ausgleichen könnte. Nur vielleicht Alkohol. Dazu gibts in Zukunft vielleicht auch mal Rezepte, mal schauen.
 
-Hier landen die Gerichte, die satt machen. Die, bei denen man danach erstmal kurz auf dem Stuhl hängen bleibt und sagt: „Boah, das war gut.“
-Manche davon sind aus Langeweile entstanden, manche aus Resteverwertung, manche, weil ich irgendwo irgendwas gesehen habe und dachte: das krieg ich auch hin.
+Ich habe so viel Gerichte auf Insta gespeichert, dass ich gar nicht dazu kommen kann, alle mal auszuprobieren, aber wenn es aufwendig ist, habe ich mir vorgenommen, dieses auch hier niederzuschreiben. Mal sehen wie lange der Vorsatz hält, lol.
 
-Nicht alles ist super fancy. Muss es auch nicht sein.
-Hauptsache es schmeckt, macht satt und man kann es gut mit Freunden teilen.
+Auch wenn alle Rezepte vegetarisch sind, fehlt es meiner Meinung nach an nichts. Gute Gewürze, frische Zutaten und die richtige Kombination machen am Ende sowieso mehr aus als Fleisch. Vielleicht kommen auch in Zukunft mehr vegane Rezepte dazu. Eigentlich gibt es kein sinnvollen Grund, nicht vegan zu sein, ausreichende Nährwerte bekommt man von verschiedenen Dingen. Manche Ersatzprodukte werden zwar oft als „chemisch“  bezeichnet (alles ist Chemie lol), aber ist für mich trotzdem besser als krebserregende (verarbeitetes Fleisch (Wurst, Schinken)) oder wahrscheinlich krebserregende (rotes Fleisch (Rind, Schwein, Lamm)) „Lebensmittel“. Quelle: 
+\href{https://www.iarc.who.int/wp-content/uploads/2018/07/pr240_E.pdf}{WHO: IARC Monographs evaluate consumption of red meat and processed meat}
 
-Und wenn am Ende alle nochmal nachnehmen, dann weiß man eh, dass es funktioniert hat.
-\include{rezepte/03_hauptgericht/01_gnocci-zitrone}
-\include{rezepte/03_hauptgericht/02_dal-makhani}
-\include{rezepte/03_hauptgericht/03_veganer-sauerbraten}
-\include{rezepte/03_hauptgericht/04_flammkuchen}
-\include{rezepte/03_hauptgericht/05_karamelisierte-zwiebel-pasta}
+Naja wieder zurück zum Thema.\\
+Ein paar Gerichte sind eher klassisch, andere ein bisschen experimenteller. Manche sind gut gelungen, bei anderen kann man das nicht behaupten. Natürlich sind hier eher die besseren drinne, da ich zu faul bin die schlechten einzutragen, aber falls ich dochmals dazu Lust hatte, ist es auch mit den Sternen so gekennzeichnet.
+
+So jetzt noch Kochmusik (Bibi und Tina, Beatles oder random italienische Musik) anmachen und anfangen.
+
+\mylocaltableofcontents%
+
 \include{rezepte/03_hauptgericht/06_bolognese}
+\include{rezepte/03_hauptgericht/02_dal-makhani}
+\include{rezepte/03_hauptgericht/04_flammkuchen}
+\include{rezepte/03_hauptgericht/01_gnocci-zitrone}
+\include{rezepte/03_hauptgericht/05_karamelisierte-zwiebel-pasta}
+\include{rezepte/03_hauptgericht/03_veganer-sauerbraten}
 \include{rezepte/03_hauptgericht/07_veggi-beef-wellington}
-
+% naechstes rezept: 08_xxx
 
 %------------------------------------------------------------
 \section{Schnelle Küche}
-Das hier ist für die Tage, an denen man eigentlich keinen Bock hat zu kochen.
-Uni war lang, Kopf voll, Kühlschrank halb leer.
 
-Aber bevor man wieder nur Nudeln mit irgendwas macht (was natürlich auch stabil ist), gibt’s hier ein paar Sachen, die schnell gehen und trotzdem nach mehr aussehen als sie eigentlich sind.
+Manchmal hat man einfach keinen Bock lange in der Küche zu stehen.  
+Oder man kommt hungrig nach Hause und braucht jetzt sofort etwas zu essen, nicht in einer Stunde.
 
-Wenig Aufwand, wenig Denken, wenig Abwasch.
-Einfach machen, essen, fertig.
+Genau dafür ist dieses Kapitel da.
 
-Das sind so Gerichte, die man irgendwann auswendig kann.
-Und genau das ist das Ziel.
+Die Rezepte hier sind unkompliziert, brauchen nicht viele Zutaten und sind meistens in unter 30 Minuten fertig.
+
+Diese Gerichte sind aber oft unspektakulär, deswegen wird es bestimmt nicht so viel von solchen hier landen, da ich wie gesagt zu faul bin alle Gerichte hier aufzuschreiben.
+
+\mylocaltableofcontents%
+
 \include{rezepte/04_schnellekueche/01_nudeln-erdnusssauce}
+% naechstes rezept: 02_xxx
+
 
 
 %------------------------------------------------------------
 \section{Frühstück}
+Wird bestimmt auch nicht so spektakuär.
+
+An die Leute die ohne Frühstück auskommen: Ihr seid Psychopathen.
+
+\mylocaltableofcontents%
+
 \include{rezepte/05_fruehstueck/01_savory-oatmeal}
+% naechstes rezept: 02_xxx
 
 
 %------------------------------------------------------------
 \section{Desserts}
 Braucht man Dessert?
+
 Eigentlich nicht.
+
 Will man Dessert?
-Ja.
 
-Das hier ist für süße Laune, für spontane Backaktionen oder wenn man Besuch beeindrucken will, obwohl man eigentlich nur Schokolade zusammenschmeißt.
+Ja, here we go.
 
-Manchmal ist es geplant, manchmal komplett impulsiv.
-„Ich hab noch Kakao da“ ist meistens der Anfang von irgendwas Gutem.
+\mylocaltableofcontents%
 
-Und ganz ehrlich:
-Wenn man schon kocht, dann kann man auch übertreiben.
+\include{rezepte/06_dessert/03_bananenbrot}
 \include{rezepte/06_dessert/01_fudgy-vegan-brownie}
 \include{rezepte/06_dessert/02_karamelisierte-feigen}
-\include{rezepte/06_dessert/03_bananenbrot}
-\include{rezepte/06_dessert/04_schoko-erdbeeren-mochi}
 \include{rezepte/06_dessert/05_orange-posset}
+\include{rezepte/06_dessert/04_schoko-erdbeeren-mochi}
 \include{rezepte/06_dessert/06_tiramisu-brownie}
 \include{rezepte/06_dessert/07_tiramisu-cake}
+% naechstes rezept: 08_xxx
 
 
 %------------------------------------------------------------
 \section{Getränke}
 
-Getränke sind irgendwie Nebensache – bis sie es nicht mehr sind. 
-Meistens trinkt man halt Wasser, Kaffee oder irgendwas aus dem Kühlschrank. 
-Aber manchmal will man mehr als nur „irgendwas dazu“.
-
-Dieses Kapitel ist für Experimente, für selbstgemachten Sirup, 
-für Sachen mit Koffein oder für Abende, die vielleicht ein bisschen länger werden.
-
-Manche Rezepte hier sind praktisch, manche einfach nur, weil ich wissen wollte, ob es geht. 
-Und ganz ehrlich: Wenn man schon selber kocht, kann man auch selber mischen.
-
-Und wenn es am Ende einfach nur Mate mit Sprudel ist – 
-dann ist das trotzdem besser als gekauft.
+Mal sehen wie voll dieses Kapitel wird, bezweifle auch das es so viel wird. Eigentlich habe ich es nur wegen dem Matesirup gemacht, vielleicht wirds ja aber noch mehr.
 
 \include{rezepte/07_getraenke/01_club-mate}
+% naechstes rezept: 08_xxx
+
 
 %------------------------------------------------------------
 \clearpage
