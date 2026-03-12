@@ -42,6 +42,11 @@ a4paper,
 \usepackage{etoc}
 %\etocsettocstyle{}{}
 
+\usepackage{totcount} % liefert am Ende die Gesamtzahl
+\newtotcounter{recipecount}
+\usepackage{etoolbox}
+\AtBeginEnvironment{recipe}{\stepcounter{recipecount}}
+
 \setcounter{secnumdepth}{1}
 \renewcommand*{\recipesection}[2][]
 {%
@@ -98,7 +103,8 @@ a4paper,
     \begin{abstract}
         \noindent
         Mein Name ist Adrian Hieber. Ich bin Student und koche in meiner Freizeit sehr gerne. Für mich ist Kochen ein Hobby, bei dem ich entspannen und kreativ sein kann.
-        Ich bin Vegetarier, deshalb sind alle Rezepte in diesem Kochbuch ohne Fleisch. Ich möchte mit diesem Buch meine Lieblingsrezepte sammeln und für mich und meine Freunde festhalten. Vielleicht bekommt ihr ja auch Lust, ein paar Gerichte auszuprobieren.
+
+        Ich bin Vegetarier, deshalb sind alle Rezepte in diesem Kochbuch ohne Fleisch. Ich möchte mit diesem Buch meine Lieblingsrezepte sammeln und für mich und meine Freunde festhalten. Vielleicht bekommt ihr ja auch Lust, ein paar Gerichte auszuprobieren. Aktuell sind in diesem Dokument \total{recipecount} Rezepte vorhanden.
         Die PDF-Vorlage für dieses Dokument habe ich von \url{https://code.google.com/p/xcookybooky/} mit leichten Veränderungen übernommen.
     \end{abstract}
 
@@ -142,12 +148,7 @@ Viel Spaß beim Kochen und Ausprobieren
 %\include{rezepte/Complete_Recipe}
 
 
-%------------------------------------------------------------
-\section{Basics}
-
-Starten wir mit den Basics.
-
-\mylocaltableofcontents%
+%------------------------------------------------------------s
 \section{Basics}
 
 Starten wir mit den Basics.
@@ -157,7 +158,8 @@ Starten wir mit den Basics.
 \include{rezepte/01_basics/01_garlic-soy-tofu-bites}
 \include{rezepte/01_basics/02_honig-ofenkarotten}
 \include{rezepte/01_basics/03_hot-honey-ranch}
-% naechstes rezept: 04_xxx
+\include{rezepte/01_basics/04_teriyaki-sauce}
+% naechstes rezept: 05_xxx
 
 
 %------------------------------------------------------------
@@ -199,9 +201,12 @@ So jetzt noch Kochmusik (Bibi und Tina, Beatles oder random italienische Musik) 
 \include{rezepte/03_hauptgericht/04_flammkuchen}
 \include{rezepte/03_hauptgericht/01_gnocci-zitrone}
 \include{rezepte/03_hauptgericht/05_karamelisierte-zwiebel-pasta}
+\include{rezepte/03_hauptgericht/09_pumpkin-gnocchi}
+%\include{rezepte/03_hauptgericht/08_smash-falafel-wrap}
 \include{rezepte/03_hauptgericht/03_veganer-sauerbraten}
 \include{rezepte/03_hauptgericht/07_veggi-beef-wellington}
-% naechstes rezept: 08_xxx
+\include{rezepte/03_hauptgericht/10_zitronen-risotto-mit-gegrilltem-romana}
+% naechstes rezept: 11_xxx
 
 %------------------------------------------------------------
 \section{Schnelle Küche}
@@ -275,6 +280,7 @@ Als letztes ist hier noch ein Kapitel mit Rezepten, die ich online gefunden und 
 \include{rezepte/02_vorspeise/01_zwiebelsuppe}
 \include{rezepte/06_dessert/06_tiramisu-brownie}
 \include{rezepte/06_dessert/08_sticky-toffee-pudding}
+\include{rezepte/03_hauptgericht/08_smash-falafel-wrap}
 %------------------------------------------------------------
 \clearpage
 \section{Abschluss}
