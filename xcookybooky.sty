@@ -245,6 +245,7 @@
 \define@key{headlines}{source}[\fontsize{13.5pt}{10pt}\PaperPortrait]{\def\xcb@name@source{#1}}
 \define@key{headlines}{rating}[\fontsize{14.5pt}{10pt}\fullstar]{\def\xcb@name@rating{#1}}
 \define@key{headlines}{price}[\fontsize{12.5pt}{10pt}\faCoins]{\def\xcb@name@price{#1}}
+\define@key{headlines}{created}[\faCalendar]{\def\xcb@name@created{#1}}
 \savekeys{headlines}
 {
     inghead,
@@ -260,7 +261,8 @@
     calory,
     rating,
     source,
-    price
+    price,
+    created
 }
 \newcommand*{\setHeadlines}[1]
 {%
@@ -281,7 +283,8 @@
     calory,
     rating,
     source,
-    price
+    price,
+    created
 }
 
 \IfLanguagePatterns{ngerman}
@@ -598,6 +601,12 @@
         {
             \xcb@name@price & \xcb@price\\
         }
+        \ifthenelse{\equal{\xcb@created}{}}
+        {% not set => not shown
+        }
+        {
+            \xcb@name@created & \xcb@created\\
+        }
         \ifthenelse{\equal{\xcb@source}{}}
         {% not set => not shown
         }
@@ -660,6 +669,8 @@
 \define@key{recipe}{rating}[]{\def\xcb@rating{#1}}
 \def\xcb@price{}
 \define@key{recipe}{price}[]{\def\xcb@price{#1}}
+\def\xcb@created{}
+\define@key{recipe}{created}[]{\def\xcb@created{#1}}
 
 \newcommand*{\xcb@separationgraph}[2][1.5]
 {% Graphical separator
