@@ -1,136 +1,25 @@
-\documentclass[%
+\documentclass[
 a4paper,
 %twoside,
 11pt
 ]{article}
 
-% encoding, font, language
-\usepackage[T1]{fontenc}
-\usepackage[utf8]{inputenc}
-\usepackage{lmodern}
-\usepackage[ngerman]{babel}
-\usepackage{hyperref}
-\usepackage{nicefrac}
-\usepackage{makeidx}
-\makeindex
-
-\usepackage{hyperref}
-
-\pdfstringdefDisableCommands{%
-  \def\step{}%
-  \def\lettrine#1#2{#1#2}%
-}
-
-\usepackage[
-    handwritten,
-    nowarnings,
-    %myconfig
-]
-{xcookybooky}
-
-\DeclareRobustCommand{\textcelcius}{\ensuremath{^{\circ}\mathrm{C}}}
-
-\newcommand{\recipesource}[2]{\href{#1}{#2}}
-
-\newcommand{\mylocaltableofcontents}{
-    \vspace{1em}
-  \etocsettocstyle{}{}%
-  \etocsettocdepth{subsection}%
-  \localtableofcontents%
-}
-
-\usepackage{etoc}
-%\etocsettocstyle{}{}
-
-\usepackage{totcount} % liefert am Ende die Gesamtzahl
-\newtotcounter{recipecount}
-\usepackage{etoolbox}
-\AtBeginEnvironment{recipe}{\stepcounter{recipecount}}
-
-\setcounter{secnumdepth}{1}
-\renewcommand*{\recipesection}[2][]
-{%
-    \subsection[#1]{#2}
-}
-\renewcommand{\subsectionmark}[1]
-{% no implementation to display the section name instead
-}
-
-
-\usepackage{hyperref}    % must be the last package
-\hypersetup{%
-    pdfauthor            = {Adrian Hieber},
-    pdftitle             = {Rezeptbuch von Adrian Hieber},
-    pdfsubject           = {Rezeptbuch},
-    pdfkeywords          = {rezept, rezeptbuch, Adrian, Hieber},
-    pdfstartview         = {FitV},
-    pdfview              = {FitH},
-    pdfpagemode          = {UseNone}, % Options; UseNone, UseOutlines
-    bookmarksopen        = {true},
-    pdfpagetransition    = {Glitter},
-    colorlinks           = {true},
-    linkcolor            = {black},
-    urlcolor             = {blue},
-    citecolor            = {black},
-    filecolor            = {black},
-}
-
-\hbadness=10000	% Ignore underfull boxes
+\input{praemble.tex}
 
 \begin{document}
 
-% background graphic
 \setBackgroundPicture[x, y=-2cm, width=\paperwidth-7cm, height, orientation = pagecenter]
 {pic/adrianhieber}
 
-% --- TITELSEITE (custom, Name/Datum weiter unten) ---
-\begin{titlepage}
-    % Hintergrund nur auf der Titelseite
-    \ClearShipoutPictureBG%
-    \thispagestyle{empty}
-
-    % Optional: etwas Abstand von oben
-    \vspace*{1.5cm}
-
-    \begin{center}
-        {\Huge \textbf{Rezeptbuch}\par}
-        \vspace{0.5cm}
-        {\Large Eine iterative Sammlung\par}
-    \end{center}
-
-    % Abstract-Text im oberen/mittleren Bereich
-    \vspace{1.2cm}
-    \begin{abstract}
-        \noindent
-        Mein Name ist Adrian Hieber. Ich bin Student und koche in meiner Freizeit sehr gerne. Für mich ist Kochen ein Hobby, bei dem ich entspannen und kreativ sein kann.
-
-        Ich bin Vegetarier, deshalb sind alle Rezepte in diesem Kochbuch ohne Fleisch. Ich möchte mit diesem Buch meine Lieblingsrezepte sammeln und für mich und meine Freunde festhalten. Vielleicht bekommt ihr ja auch Lust, ein paar Gerichte auszuprobieren. Aktuell sind in diesem Dokument \total{recipecount} Rezepte vorhanden.
-        Die PDF-Vorlage für dieses Dokument habe ich von \url{https://code.google.com/p/xcookybooky/} mit leichten Veränderungen übernommen.
-    \end{abstract}
-
-    % Drückt den unteren Block nach unten
-    \vfill
-
-    % Name/Datum relativ unten
-    \begin{center}
-        {\Large \textbf{Adrian Hieber}\par}
-        \vspace{0.2cm}
-        \href{mailto:adrian.hieber@gmail.com}{adrian.hieber@gmail.com}\par
-        \vspace{0.4cm}
-        {\large \today\par}
-    \end{center}
-
-    % Optional: noch minimal Abstand zum unteren Rand
-    \vspace*{1.2cm}
-\end{titlepage}
-
-% Danach Hintergrund wieder entfernen/neutral setzen (optional)
-%------------------------------------------------------------
+\input{titlepage.tex}
 \clearpage
+
 \setBackgroundPicture[x, y=-2cm, width=\paperwidth-7cm, height, orientation = pagecenter]{pic/adrianhieber}
 \tableofcontents
 \clearpage
 %------------------------------------------------------------
+%------------------------------------------------------------
+
 \section{Vorwort}
 
 Servus,\\
@@ -145,21 +34,23 @@ Bei allen Rezepten wird auch angegeben, was die Nährwerte pro Portion ist, fall
 
 Viel Spaß beim Kochen und Ausprobieren
 \newpage
-%\include{rezepte/Complete_Recipe}
+%\input{rezepte/Complete_Recipe}
 
 
-%------------------------------------------------------------s
+%------------------------------------------------------------
+
 \section{Basics}
 
 Starten wir mit den Basics.
 
 \mylocaltableofcontents%
+\newpage
 
-\include{rezepte/01_basics/01_garlic-soy-tofu-bites}
-\include{rezepte/01_basics/02_honig-ofenkarotten}
-\include{rezepte/01_basics/03_hot-honey-ranch}
-\include{rezepte/01_basics/05_pasta-orecchiette}
-\include{rezepte/01_basics/04_teriyaki-sauce}
+\input{rezepte/01_basics/01_garlic-soy-tofu-bites}
+\input{rezepte/01_basics/02_honig-ofenkarotten}
+\input{rezepte/01_basics/03_hot-honey-ranch}
+\input{rezepte/01_basics/05_pasta-orecchiette}
+\input{rezepte/01_basics/04_teriyaki-sauce}
 % naechstes rezept: 05_xxx
 
 
@@ -174,14 +65,17 @@ Am besten ist natürlich das geschenkte Olivenöl direkt an der Quelle, welches 
 Naja aber es gibt natürlich noch weitere geile Sachen, deswegen fängt dieses Rezeptbuch hier erstmal mit den Vorspeisen an (Wäre eigentlich auch funny einfach die Desserts als erstes aufzulisten).
 
 \mylocaltableofcontents%
+\newpage
 
-\include{rezepte/02_vorspeise/02_acili-ezme}
-\include{rezepte/02_vorspeise/03_brokkoli-rote-beete}
-%\include{rezepte/02_vorspeise/01_zwiebelsuppe}
-\include{rezepte/02_vorspeise/04_couscous-salat}
+\input{rezepte/02_vorspeise/02_acili-ezme}
+\input{rezepte/02_vorspeise/03_brokkoli-rote-beete}
+%\input{rezepte/02_vorspeise/01_zwiebelsuppe}
+\input{rezepte/02_vorspeise/04_couscous-salat}
 % naechstes rezept: 05_xxx
 
+
 %------------------------------------------------------------
+
 \section{Hauptgerichte}
 Jetzt kommen wir zum Herzstück des Ganzen, den Hauptgerichten.  
 Ein Hauptgericht sollte satt machen und geil schmecken, ansonsten ist es kein gutes Essen, was ein Dessert oder gar die Vorspeiese ausgleichen könnte. Nur vielleicht Alkohol. Dazu gibts in Zukunft vielleicht auch mal Rezepte, mal schauen.
@@ -197,22 +91,25 @@ Ein paar Gerichte sind eher klassisch, andere ein bisschen experimenteller. Manc
 So jetzt noch Kochmusik (Bibi und Tina, Beatles oder random italienische Musik) anmachen und anfangen.
 
 \mylocaltableofcontents%
+\newpage
 
-\include{rezepte/03_hauptgericht/06_bolognese}
-\include{rezepte/03_hauptgericht/11_bolognese-v2}
-\include{rezepte/03_hauptgericht/02_dal-makhani}
-\include{rezepte/03_hauptgericht/04_flammkuchen}
-\include{rezepte/03_hauptgericht/01_gnocci-zitrone}
-\include{rezepte/03_hauptgericht/05_karamelisierte-zwiebel-pasta}
-\include{rezepte/03_hauptgericht/07_veggi-beef-wellington}
-\include{rezepte/03_hauptgericht/12_pasta-zitronensosse}
-\include{rezepte/03_hauptgericht/09_pumpkin-gnocchi}
-%\include{rezepte/03_hauptgericht/08_smash-falafel-wrap}
-\include{rezepte/03_hauptgericht/03_veganer-sauerbraten}
-\include{rezepte/03_hauptgericht/10_zitronen-risotto-mit-gegrilltem-romana}
+\input{rezepte/03_hauptgericht/06_bolognese}
+\input{rezepte/03_hauptgericht/11_bolognese-v2}
+\input{rezepte/03_hauptgericht/02_dal-makhani}
+\input{rezepte/03_hauptgericht/04_flammkuchen}
+\input{rezepte/03_hauptgericht/01_gnocci-zitrone}
+\input{rezepte/03_hauptgericht/05_karamelisierte-zwiebel-pasta}
+\input{rezepte/03_hauptgericht/07_veggi-beef-wellington}
+\input{rezepte/03_hauptgericht/12_pasta-zitronensosse}
+\input{rezepte/03_hauptgericht/09_pumpkin-gnocchi}
+%\input{rezepte/03_hauptgericht/08_smash-falafel-wrap}
+\input{rezepte/03_hauptgericht/03_veganer-sauerbraten}
+\input{rezepte/03_hauptgericht/10_zitronen-risotto-mit-gegrilltem-romana}
 % naechstes rezept: 13_xxx
 
+
 %------------------------------------------------------------
+
 \section{Schnelle Küche}
 
 Manchmal hat man einfach keinen Bock lange in der Küche zu stehen.  
@@ -225,39 +122,43 @@ Die Rezepte hier sind unkompliziert, brauchen nicht viele Zutaten und sind meist
 Diese Gerichte sind aber oft unspektakulär, deswegen wird es bestimmt nicht so viel von solchen hier landen, da ich wie gesagt zu faul bin alle Gerichte hier aufzuschreiben.
 
 \mylocaltableofcontents%
+\newpage
 
-\include{rezepte/04_schnellekueche/04_fried-rice}
-\include{rezepte/04_schnellekueche/02_linsen-curry}
-\include{rezepte/04_schnellekueche/01_nudeln-erdnusssauce}
-\include{rezepte/04_schnellekueche/05_protein-wraps-soja-avocado}
-\include{rezepte/04_schnellekueche/03_ramen-yuba-erdnusssauce}
+\input{rezepte/04_schnellekueche/04_fried-rice}
+\input{rezepte/04_schnellekueche/02_linsen-curry}
+\input{rezepte/04_schnellekueche/01_nudeln-erdnusssauce}
+\input{rezepte/04_schnellekueche/05_protein-wraps-soja-avocado}
+\input{rezepte/04_schnellekueche/03_ramen-yuba-erdnusssauce}
 % naechstes rezept: 06_xxx
 
 
 %------------------------------------------------------------
+
 \section{No Brainer}
 Für Moritz
 \mylocaltableofcontents%
+\newpage
 
-\include{rezepte/09_nobrainer/01_burger}
+\input{rezepte/09_nobrainer/01_burger}
 % naechstes rezept: 02_xxx
 
 
-
-
 %------------------------------------------------------------
+
 \section{Frühstück}
 Wird bestimmt auch nicht so spektakuär.
 
 An die Leute die ohne Frühstück auskommen: Ihr seid Psychopathen.
 
 \mylocaltableofcontents%
+\newpage
 
-\include{rezepte/05_fruehstueck/01_savory-oatmeal}
+\input{rezepte/05_fruehstueck/01_savory-oatmeal}
 % naechstes rezept: 02_xxx
 
 
 %------------------------------------------------------------
+
 \section{Desserts}
 Braucht man Dessert?
 
@@ -268,37 +169,44 @@ Will man Dessert?
 Ja, here we go.
 
 \mylocaltableofcontents%
+\newpage
 
-\include{rezepte/06_dessert/03_bananenbrot}
-\include{rezepte/06_dessert/01_fudgy-vegan-brownie}
-\include{rezepte/06_dessert/02_karamelisierte-feigen}
-\include{rezepte/06_dessert/05_orange-posset}
-\include{rezepte/06_dessert/04_schoko-erdbeeren-mochi}
-%\include{rezepte/06_dessert/08_sticky-toffee-pudding}
-%\include{rezepte/06_dessert/06_tiramisu-brownie}
-\include{rezepte/06_dessert/07_tiramisu-cake}
+\input{rezepte/06_dessert/03_bananenbrot}
+\input{rezepte/06_dessert/01_fudgy-vegan-brownie}
+\input{rezepte/06_dessert/02_karamelisierte-feigen}
+\input{rezepte/06_dessert/05_orange-posset}
+\input{rezepte/06_dessert/04_schoko-erdbeeren-mochi}
+%\input{rezepte/06_dessert/08_sticky-toffee-pudding}
+%\input{rezepte/06_dessert/06_tiramisu-brownie}
+\input{rezepte/06_dessert/07_tiramisu-cake}
 % naechstes rezept: 09_xxx
 
 
 %------------------------------------------------------------
+
 \section{Getränke}
 
 Mal sehen wie voll dieses Kapitel wird, bezweifle auch das es so viel wird. Eigentlich habe ich es nur wegen dem Matesirup gemacht, vielleicht wirds ja aber noch mehr.
 
-\include{rezepte/07_getraenke/01_club-mate}
+\input{rezepte/07_getraenke/01_club-mate}
 % naechstes rezept: 08_xxx
 
 
 %------------------------------------------------------------
+
 \section{Noch zu kochen}
 
 Als letztes ist hier noch ein Kapitel mit Rezepten, die ich online gefunden und hier aufgeschrieben habe, aber bisher noch nicht gekocht habe.
+\newpage
 
-\include{rezepte/03_hauptgericht/08_smash-falafel-wrap}
-\include{rezepte/06_dessert/08_sticky-toffee-pudding}
-\include{rezepte/06_dessert/06_tiramisu-brownie}
-\include{rezepte/02_vorspeise/01_zwiebelsuppe}
+\input{rezepte/03_hauptgericht/08_smash-falafel-wrap}
+\input{rezepte/06_dessert/08_sticky-toffee-pudding}
+\input{rezepte/06_dessert/06_tiramisu-brownie}
+\input{rezepte/02_vorspeise/01_zwiebelsuppe}
+
+
 %------------------------------------------------------------
+
 \clearpage
 \section{Abschluss}
 
@@ -326,8 +234,10 @@ Neue Ideen, bessere Varianten, Preisänderungen etc. Falls du gute Rezepte hast 
 Adrian\\
 \the\year%
 \end{center}
+\clearpage
+
 
 %------------------------------------------------------------
-\clearpage
+
 \printindex
 \end{document} 
