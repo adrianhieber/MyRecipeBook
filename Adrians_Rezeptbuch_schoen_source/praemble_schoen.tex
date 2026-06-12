@@ -1,0 +1,83 @@
+
+% ============================================================
+% Schöne, aber schnelle und weiterbearbeitbare Kochbuch-Praeambel
+% ============================================================
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage{microtype}
+\usepackage{tgpagella}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{geometry}
+\usepackage{etoc}
+\usepackage{etoolbox}
+\usepackage{totcount}
+\usepackage{makeidx}
+\usepackage{nicefrac}
+\usepackage{titlesec}
+\usepackage{xurl}
+\usepackage{hyperref}
+\usepackage[nowarnings]{xcookybooky}
+
+\makeindex
+\newtotcounter{recipecount}
+\AtBeginEnvironment{recipe}{\stepcounter{recipecount}}
+
+\DeclareRobustCommand{\textcelcius}{\ensuremath{^{\circ}\mathrm{C}}}
+\newcommand{\recipesource}[2]{\href{#1}{#2}}
+
+\definecolor{WarmPaper}{HTML}{FBF4E8}
+\definecolor{Flour}{HTML}{FFF9EE}
+\definecolor{Cream}{HTML}{F0DFC0}
+\definecolor{Cocoa}{HTML}{4B2E22}
+\definecolor{Tomato}{HTML}{B64B36}
+\definecolor{Basil}{HTML}{557A46}
+\definecolor{Sage}{HTML}{8B9A6E}
+\definecolor{InkGray}{HTML}{3E3832}
+
+\hypersetup{% 
+    pdfauthor            = {Adrian Hieber},
+    pdftitle             = {Rezeptbuch von Adrian Hieber},
+    pdfsubject           = {Rezeptbuch},
+    pdfkeywords          = {rezept, rezeptbuch, kochen, vegetarisch, vegan},
+    pdfstartview         = {FitV},
+    pdfview              = {FitH},
+    pdfpagemode          = {UseNone},
+    bookmarksopen        = {true},
+    colorlinks           = {true},
+    linkcolor            = {Cocoa},
+    urlcolor             = {Tomato},
+    citecolor            = {Cocoa},
+    filecolor            = {Cocoa},
+}
+\urlstyle{same}
+\pdfstringdefDisableCommands{%
+  \def\step{}%
+  \def\lettrine#1#2{#1#2}%
+  \def\textcolor#1#2{#2}%
+}
+
+\input{style/kochbuch-style.tex}
+
+% \newcommand{\mylocaltableofcontents}{%
+%   \vspace{0.5em}
+%   \begingroup
+%   \setlength{\fboxsep}{8pt}%
+%   \noindent\fcolorbox{Sage}{Flour}{\begin{minipage}{0.95\linewidth}
+%     \etocsettocstyle{}{}%
+%     \etocsettocdepth{subsection}%
+%     \localtableofcontents%
+%   \end{minipage}}%
+%   \endgroup
+%   \vspace{0.7em}
+% }
+
+\newcommand{\mylocaltableofcontents}{
+    \vspace{1em}
+  \etocsettocstyle{}{}%
+  \etocsettocdepth{subsubsection}%
+  \localtableofcontents%
+}
+
+\hbadness=10000

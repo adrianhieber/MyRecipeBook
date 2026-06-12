@@ -1,25 +1,22 @@
 \documentclass[
-a4paper,
-%twoside,
-11pt
+  a4paper,
+  twoside,
+  11pt
 ]{article}
 
 \input{praemble.tex}
 
 \begin{document}
-
-\setBackgroundPicture[x, y=-2cm, width=\paperwidth-7cm, height, orientation = pagecenter]
-{pic/adrianhieber}
-
-\input{titlepage.tex}
-\clearpage
+\cookbooktitlepage
+\cookbooktocpage
 
 \setBackgroundPicture[x, y=-2cm, width=\paperwidth-7cm, height, orientation = pagecenter]{pic/adrianhieber}
-\tableofcontents
-\clearpage
-%------------------------------------------------------------
-%------------------------------------------------------------
 
+% ------------------------------------------------------------
+% Ab hier beginnt der Inhalt. Die einzelnen Rezepte liegen weiter
+% separat in rezepte/... und koennen wie bisher bearbeitet werden.
+% ------------------------------------------------------------
+\chapteropener{Vorwort}{pic/hauptgericht/18_feta-spitzpaprika-pasta}{Warum dieses Buch existiert}
 \section{Vorwort}
 
 Servus,\\
@@ -50,6 +47,7 @@ Viel Spaß beim Kochen und Ausprobieren.
 
 %------------------------------------------------------------
 
+\chapteropener{Grundlagen}{pic/grundlagen/pasta-orecchiette}{Basics, Saucen und Komponenten}
 \section{Grundlagen}
 
 Starten wir mit den Basics.
@@ -65,19 +63,20 @@ Manches davon wirkt erstmal simpel, aber genau solche Basics machen am Ende oft 
 \input{rezepte/grundlagen/honig-ofenkarotten}
 \input{rezepte/grundlagen/hot-honey-ranch}
 \input{rezepte/grundlagen/pasta-orecchiette}
-\input{rezepte/grundlagen/seitan-sauerbraten}
+\input{rezepte/grundlagen/seitan}
 \input{rezepte/grundlagen/teriyaki-sauce}
 \input{rezepte/grundlagen/vegane-burger-patties}
 
 
 %------------------------------------------------------------
+\chapteropener{Vorspeisen \& Kleinigkeiten}{pic/vorspeise/couscous-salat}{Kleine Teller, großer Effekt}
 \section{Vorspeisen \& Kleinigkeiten}
 
 Wenn ich normal koche, dann mache ich mir eigentlich keine richtige Vorspeise, da es einfach mehr Aufwand ist. Aber wenn man mal die Gelegenheit dazu hat, ist es schon ziemlich schön.
 
 Natürlich kann man auch einfach frisches Brot mit Olivenöl, Salz und Pfeffer essen. Mit dunklem Balsamico dazu ist das auch richtig geil, auch wenn ich mal gelesen habe, dass Italiener das nicht so sehen, weil dann das gute Olivenöl nicht richtig rauskommt. Naja, schmeckt trotzdem. Am besten ist natürlich das geschenkte Olivenöl direkt an der Quelle, welches jedes Weihnachten kommt, thx Gabi dafür.
 
-Naja aber es gibt natürlich noch weitere geile Sachen, deswegen fängt dieses Rezeptbuch hier erstmal mit den Vorspeisen an (Wäre eigentlich auch funny einfach die Desserts als erstes aufzulisten).
+Naja aber es gibt natürlich noch weitere geile Sachen, deswegen mache ich dieses Rezeptbuch hier erstmal mit den Vorspeisen weiter (Wäre eigentlich auch funny einfach die Desserts als erstes aufzulisten).
 
 
 \mylocaltableofcontents%
@@ -92,11 +91,12 @@ Naja aber es gibt natürlich noch weitere geile Sachen, deswegen fängt dieses R
 
 %------------------------------------------------------------
 
+\chapteropener{Pasta \& Gnocchi}{pic/hauptgericht/14_frischkaese-ravioli}{Nudeln, Sauce, Pastawasser, Glück}
 \section{Pasta \& Gnocchi}
 
 Pasta ist wahrscheinlich die Kategorie, bei der man mit relativ wenig Aufwand ziemlich viel rausholen kann. Ein paar gute Zutaten, genug Pastawasser und eine Sauce, die nicht einfach nur daneben existiert, sondern wirklich an den Nudeln hängt, machen schon extrem viel aus.
 
-Hier geht es nicht nur um schnelle Nudeln mit irgendwas, sondern um Gerichte, bei denen Pasta, Gnocchi oder Ravioli wirklich im Mittelpunkt stehen. Manche davon sind alltagstauglich, andere etwas aufwendiger. Aber am Ende gilt: Wenn die Sauce gut ist, ist der Tag gerettet.
+Hier geht es nicht nur um schnelle Nudeln mit irgendwas, sondern um Gerichte, bei denen Pasta, Gnocchi oder Ravioli wirklich im Mittelpunkt stehen. Manche davon sind alltagstauglich, andere etwas aufwendiger.
 
 \mylocaltableofcontents%
 \newpage
@@ -113,6 +113,7 @@ Hier geht es nicht nur um schnelle Nudeln mit irgendwas, sondern um Gerichte, be
 
 %------------------------------------------------------------
 
+\chapteropener{Reis, Curry \& Bowls}{pic/hauptgericht/10_zitronen-risotto-mit-gegrilltem-romana}{Satt, würzig und gut vorzubereiten}
 \section{Reis, Curry \& Bowls}
 
 Reisgerichte, Currys und Bowls sind für mich vor allem dann stark, wenn sie sättigen, gut gewürzt sind und man sie auch am nächsten Tag noch gerne isst.
@@ -129,6 +130,7 @@ Viele dieser Gerichte lassen sich gut vorbereiten oder anpassen. Mehr Gemüse, a
 
 %------------------------------------------------------------
 
+\chapteropener{Signature Dishes}{pic/hauptgericht/07_veggi-beef-wellington-big}{Mehr Aufwand, mehr Liebe}
 \section{Signature Dishes}
 
 Das sind die Gerichte, bei denen man nicht einfach nur schnell satt werden will.
@@ -153,6 +155,7 @@ Ein paar Gerichte sind eher klassisch, andere ein bisschen experimenteller. Manc
 
 %------------------------------------------------------------
 
+\chapteropener{Schnelle Küche}{pic/schnellekueche/05_protein-wraps-soja-avocado}{Wenn Hunger schneller ist als Motivation}
 \section{Schnelle Küche}
 
 Manchmal hat man einfach keinen Bock, lange in der Küche zu stehen. Oder man kommt hungrig nach Hause und braucht jetzt sofort etwas zu essen, nicht erst in einer Stunde.
@@ -173,6 +176,7 @@ Die Rezepte hier sollen unkompliziert sein, nicht zu viele Zutaten brauchen und 
 
 %------------------------------------------------------------
 
+\chapteropener{Frühstück}{pic/IMG_20260523_204006_1}{Für alle, die morgens keine Psychopathen sind}
 \section{Frühstück}
 
 Wird bestimmt n
@@ -186,10 +190,12 @@ An die Leute, die ohne Frühstück auskommen: Ihr seid Psychopathen.
 \newpage
 
 \input{rezepte/fruehstueck/savory-oatmeal}
+\input{rezepte/fruehstueck/kokos-cashew-granola}
 
 
 %------------------------------------------------------------
 
+\chapteropener{Desserts}{pic/dessert/07_tiramisu-cake}{Kalorien-Endgegner und kleine Glücksmomente}
 \section{Desserts}
 Braucht man Dessert?
 
@@ -219,6 +225,7 @@ Manche Rezepte hier sind schnell gemacht, andere sind komplette Kalorien-Endgegn
 
 %------------------------------------------------------------
 
+\chapteropener{Getränke}{pic/getraenke/01_club-mate}{Koffein, Kaffee und Zeug zum Mischen}
 \section{Getränke}
 
 Mal sehen wie voll dieses Kapitel wird, bezweifle auch das es so viel wird. Eigentlich habe ich es nur wegen dem Matesirup gemacht, vielleicht wirds ja aber noch mehr.
@@ -233,6 +240,7 @@ Mal sehen wie voll dieses Kapitel wird, bezweifle auch das es so viel wird. Eige
 
 %------------------------------------------------------------
 
+\chapteropener{Kochwissen}{pic/IMG_20260605_200755}{Techniken, Tests und Küchen-Logbuch}
 \section{Kochwissen}
 
 Dieses Kapitel ist kein normales Rezeptkapitel.
@@ -247,6 +255,7 @@ Also quasi ein kleines Küchen-Logbuch. Nicht perfekt sortiert, sondern wachsend
 
 %------------------------------------------------------------
 
+\chapteropener{Ideen \& Backlog}{pic/vorspeise/reispapier-pillows-guacamole}{Warteliste für zukünftige Lieblingsgerichte}
 \section{Ideen \& Backlog}
 
 Als letztes gibt es noch ein Kapitel mit Rezepten, die ich online gefunden, gespeichert oder schon grob aufgeschrieben habe, aber bisher noch nicht wirklich gekocht habe.
@@ -265,6 +274,7 @@ Das ist also eher eine Warteliste als ein fertiger Teil des Buches. Wenn ein Rez
 %------------------------------------------------------------
 
 \clearpage
+\chapteropener{Abschluss}{pic/IMG_20260607_133510}{Danke fürs Kochen}
 \section{Abschluss}
 
 \begin{center}
@@ -296,5 +306,11 @@ Adrian\\
 
 %------------------------------------------------------------
 
+
+
+% ------------------------------------------------------------
+\clearpage
+\section*{Index}
+\addcontentsline{toc}{section}{Index}
 \printindex
-\end{document} 
+\end{document}

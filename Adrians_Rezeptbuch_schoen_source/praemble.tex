@@ -1,0 +1,72 @@
+% encoding, font, language
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[ngerman]{babel}
+\usepackage{hyperref}
+\usepackage{nicefrac}
+\usepackage{makeidx}
+\makeindex
+
+\usepackage{hyperref}
+
+\pdfstringdefDisableCommands{%
+  \def\step{}%
+  \def\lettrine#1#2{#1#2}%
+}
+
+\usepackage[
+    handwritten,
+    nowarnings,
+    %myconfig
+]
+{xcookybooky}
+
+\DeclareRobustCommand{\textcelcius}{\ensuremath{^{\circ}\mathrm{C}}}
+
+\newcommand{\recipesource}[2]{\href{#1}{#2}}
+
+\newcommand{\mylocaltableofcontents}{
+    \vspace{1em}
+  \etocsettocstyle{}{}%
+  \etocsettocdepth{subsection}%
+  \localtableofcontents%
+}
+
+\usepackage{etoc}
+%\etocsettocstyle{}{}
+
+\usepackage{totcount} % liefert am Ende die Gesamtzahl
+\newtotcounter{recipecount}
+\usepackage{etoolbox}
+\AtBeginEnvironment{recipe}{\stepcounter{recipecount}}
+
+\setcounter{secnumdepth}{1}
+\renewcommand*{\recipesection}[2][]
+{%
+    \subsection[#1]{#2}
+}
+\renewcommand{\subsectionmark}[1]
+{% no implementation to display the section name instead
+}
+
+
+\usepackage{hyperref}    % must be the last package
+\hypersetup{%
+    pdfauthor            = {Adrian Hieber},
+    pdftitle             = {Rezeptbuch von Adrian Hieber},
+    pdfsubject           = {Rezeptbuch},
+    pdfkeywords          = {rezept, rezeptbuch, Adrian, Hieber},
+    pdfstartview         = {FitV},
+    pdfview              = {FitH},
+    pdfpagemode          = {UseNone}, % Options; UseNone, UseOutlines
+    bookmarksopen        = {true},
+    pdfpagetransition    = {Glitter},
+    colorlinks           = {true},
+    linkcolor            = {black},
+    urlcolor             = {blue},
+    citecolor            = {black},
+    filecolor            = {black},
+}
+
+\hbadness=10000	% Ignore underfull boxes
