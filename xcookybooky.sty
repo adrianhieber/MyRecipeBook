@@ -94,7 +94,7 @@
 
 \newcommand*{\recipesection}[2][]
 {%
-    \subsubsection[#1]{#2}
+    \subsection[#1]{#2}
 }
 
 \providecolor{DarkGreen}{rgb}{0,.5,0}
@@ -793,9 +793,9 @@
 %% THIRD BLOCK
     %% THIRD BLOCK
 
+    \setlength{\columnsep}{1em}
+    \setcolumnwidth{\xcb@preparationwidth,\xcb@ingredientswidth}
     \begin{paracol}{2}
-        \setlength{\columnsep}{1em}
-        \setcolumnwidth{\xcb@preparationwidth,\xcb@ingredientswidth}
 
         % Links: Zubereitung
         \switchcolumn[0]

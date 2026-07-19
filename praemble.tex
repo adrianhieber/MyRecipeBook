@@ -23,6 +23,7 @@
 \makeindex
 \newtotcounter{recipecount}
 \AtBeginEnvironment{recipe}{\stepcounter{recipecount}}
+\renewcommand{\theHstep}{\arabic{recipecount}.\arabic{step}}
 
 \DeclareRobustCommand{\textcelcius}{\ensuremath{^{\circ}\mathrm{C}}}
 \newcommand{\recipesource}[2]{\href{#1}{#2}}
@@ -74,10 +75,11 @@
 % }
 
 \newcommand{\mylocaltableofcontents}{
-    \vspace{1em}
+  \vspace{1em}
   \etocsettocstyle{}{}%
-  \etocsettocdepth{subsubsection}%
+  \etocsettocdepth{subsection}%
   \localtableofcontents%
 }
 
 \hbadness=10000
+\raggedbottom%
