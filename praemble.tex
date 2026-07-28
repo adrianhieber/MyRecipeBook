@@ -12,6 +12,7 @@
 \usepackage{geometry}
 \usepackage{etoc}
 \usepackage{etoolbox}
+\usepackage{multicol}
 \usepackage{totcount}
 \usepackage{makeidx}
 \usepackage{nicefrac}
@@ -22,6 +23,7 @@
 
 \makeindex
 \newtotcounter{recipecount}
+\regtotcounter{section}
 \AtBeginEnvironment{recipe}{\stepcounter{recipecount}}
 \renewcommand{\theHstep}{\arabic{recipecount}.\arabic{step}}
 

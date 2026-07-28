@@ -810,7 +810,7 @@
         \xcb@hook@postingredients
 
         % Wenn es einen zweiten Zutatenblock gibt -> sauber auf neue Seite synchronisieren
-        \ifthenelse{\equal{\xcb@ingredientsB}{}}{}{%
+        \ifdefempty{\xcb@ingredientsB}{}{%
             %\flushpage
             \xcb@ingredientsB
         }
