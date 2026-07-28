@@ -15,5 +15,8 @@
 # Optional: build folder (falls du später einen nutzt)
 build/
 
+# Generated recipe books
+/book*.pdf
+
 # OS files
 .DS_Store
