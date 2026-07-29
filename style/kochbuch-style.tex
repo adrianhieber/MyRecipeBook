@@ -71,7 +71,7 @@
   {0pt}
   {}
   [{\vspace{-0.2em}{\color{Sage!70!black}\rule{0.70\textwidth}{0.6pt}}}]
-\titlespacing*{\subsection}{0pt}{0.6cm}{0.5cm}
+\titlespacing*{\subsection}{0pt}{0.6cm}{0.25cm}
 
 % Kapitel mit einem zweiten, nur im Inhaltsverzeichnis sichtbaren Untertitel.
 \DeclareRobustCommand{\cookbooktocsubtitle}[1]{}
@@ -239,7 +239,7 @@
 }
 \renewcommand{\preparation}[1]{%
   \def\xcb@preparation{%
-    {\bfseries\large\color{Cocoa}\xcb@name@prephead}\par\vspace{.15em}
+    {\bfseries\large\color{Cocoa}\xcb@name@prephead}\par\vspace{-1em}
     {\color{Sage}\rule{\linewidth}{.7pt}}\par\vspace{.35em}
     {\xcb@fontsize@prep\color{\xcb@color@prep}#1\par}%
   }%
@@ -248,7 +248,7 @@
 \renewcommand{\ingredients}[2][\empty]{%
   \def\xcb@ingredientslines{#1}%
   \def\xcb@ingredients{%
-    {\bfseries\large\color{Cocoa}\xcb@name@inghead}\par\vspace{.15em}
+    {\bfseries\large\color{Cocoa}\xcb@name@inghead}\par\vspace{-1em}
     {\color{Sage}\rule{\linewidth}{.7pt}}\par\vspace{.35em}
     {\xcb@fontsize@ing\color{\xcb@color@ing}\begin{tabulary}{\linewidth}{>{\bfseries\color{Tomato}}rL}#2\end{tabulary}}%
   }%
